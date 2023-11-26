@@ -7,9 +7,9 @@ df['ID'] = df['ID'].astype(str)
 print(df.iloc[0]["Name"])
 print(df["Name"].dtype)
 numberOfProfessors=df['Name'].count()
-courselist = []
+professorList = []
 for i in range(0,numberOfProfessors):
     professor = Professor(df.iloc[i]["Name"], df.iloc[i]["ID"])
-    courselist.append(professor)
+    professorList.append(professor)
 
 print(professorList)
