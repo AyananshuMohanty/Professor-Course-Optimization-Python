@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 from Professor import Professor
-df = pd.read_csv("Professor_List.csv")
+df = pd.read_csv("ProfessorList.csv")
+print(df)
 df['Name'] = df['Name'].astype(str)
 df['ID'] = df['ID'].astype(str)
 print(df.iloc[0]["Name"])
