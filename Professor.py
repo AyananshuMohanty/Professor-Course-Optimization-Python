@@ -9,6 +9,9 @@ class Professor:
 
     def getID(self):
         return self.ID
+    
+    def getPriority(self, x):
+        return self.Priority_Order[x]
 
     def addPriority(self, Priority, Course):
         self.Priority_Order[Priority] = Course
