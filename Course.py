@@ -1,3 +1,4 @@
+import Course_Type
 class Course:
     def __init__(self, course_name, course_code, course_type):
         self.course_name = course_name
@@ -11,4 +12,4 @@ class Course:
         return self.course_code
 
     def getCoursetype(self):
-        return self.course_type
+        return Course_Type(self.course_type)
