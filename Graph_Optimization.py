@@ -11,7 +11,7 @@ for course in courselist:
 for professor in professorList:
     G.add_node(professor.getID())
     for i in range(16):
-        if i!=1:
+        if i!=None:
             G.add_edge(professor.getName(),professor.getPriority(i))
 
 nx.draw(G, with_labels = True)
