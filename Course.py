@@ -17,5 +17,5 @@ class Course:
     
 disco=Course("Disco","CS F222",1)
 print(disco.getCourseType())
-df = pd.read_csv("coursedata.csv")
-print(df)
+# df = pd.read_csv("coursedata.csv")
+# print(df)
