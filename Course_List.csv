@@ -1,113 +1,1 @@
-Course Name,,,Course Code,,Course Type
-Logic_in_Computer Science1,,,CS F211,,FDCDC
-Logic_in_Computer Science2,,,CS F212,,FDCDC
-Discrete_Structures_in_Computer Science,,,CS F213,,FDCDC
-Digital_Design,,,CS F214,,FDCDC
-Object Oriented Programming,,,CS F215,,FDCDC
-Data Structure and Algorithms,,,CS F311,,FDCDC
-Database and Management Systems,,,CS F312,,FDCDC
-MUP,,,CS F313,,FDCDC
-Operating Systems,,,CS F314,,FDCDC
-Computer Architecture,,,CS F315,,FDCDC
-Principle of Programming Languages,,,CS F411,,FDCDC
-Theory of Computation1,,,CS F412,,FDCDC
-Theory of Computation2,,,CS F413,,FDCDC
-Operating Systems2,,,CS F414,,FDCDC
-Principle of Programming Languages2,,,CS F415,,FDCDC
-Computer Programming,,,CS F111,,FDCDC
-Computer Prograaming2,,,CS F112,,FDCDC
-Computer Prograaming3,,,CS F113,,FDCDC
-Compiler Construction,,,CS F114,,FDCDC
-Compiler Construction2,,,CS F115,,FDCDC
-,,,,,
-,,,,,
-Introduction to Data Mining,,,CS H111,,HDCDC
-Analysis and Intractability †of Algorithms,,,CS H112,,HDCDC
-Data Communication and Computer Networks,,,CS H113,,HDCDC
-Design Patterns and Object-Oriented Analysis,,,CS H114,,HDCDC
-Artificial Intelligence†,,,CS H115,,HDCDC
-Research Preperation in Computer Science,,,CS H211,,HDCDC
-Introduction to Bioinformatics,,,CS H212,,HDCDC
-Advanced Computer Architectures,,,CS H213,,HDCDC
-Introduction to Computer Graphics,,,CS H214,,HDCDC
-Cryptography and Network Security,,,CS H215,,HDCDC
-Introduction to 3D Game Graphics,,,CS H311,,HDCDC
-Advanced Programming Languages,,,CS H312,,HDCDC
-Compilers,,,CS H313,,HDCDC
-Intelligent Information Retrieval,,,CS H314,,HDCDC
-Intelligent Tutoring Systems,,,CS H315,,HDCDC
-Introduction to Text Mining,,,CS H411,,HDCDC
-Advanced Topics in Computer Science,,,CS H412,,HDCDC
-Advanced Operating Systems,,,CS H413,,HDCDC
-Advanced Computer Networks,,,CS H414,,HDCDC
-Advanced Database Management Systems,,,CS H415,,HDCDC
-,,,,,
-,,,,,
-Intro to Computer Security,,,CS FE211,,FDELEC
-Real-Time Concepts for Embedded Systems†,,,CS FE212,,FDELEC
-Introduction to Networking,,,CS FE213,,FDELEC
-Introduction to Computer Security,,,CS FE214,,FDELEC
-Cloud Computing,,,CS FE215,,FDELEC
-Numerical Analysis and Computing,,,CS FE216,,FDELEC
-Logic Programming,,,CS FE217,,FDELEC
-Digital Embedded Systems Design with HDL,,,CS FE218,,FDELEC
-Principles and Techniques of Data Science,,,CS FE219,,FDELEC
-Introduction to Software Engineering,,,CS FE220,,FDELEC
-Foundations of Data Science,,,CS FE221,,FDELEC
-Web Programming,,,CS FE311,,FDELEC
-Computer Systems Analysis and Design†,,,CS FE312,,FDELEC
-Project Management and Practice,,,CS FE313,,FDELEC
-Computational Thinking,,,CS FE314,,FDELEC
-Assembly Language and Digital Circuits,,,CS FE315,,FDELEC
-Selected Topics in Computing,,,CS FE316,,FDELEC
-Algorithmic Justice,,,CS FE317,,FDELEC
-Problem Solving with Java Programming†,,,CS FE318,,FDELEC
-Introduction to Computer Animation,,,CS FE319,,FDELEC
-Introduction to Artificial Intelligence,,,CS FE320,,FDELEC
-Artificial Neural Networks,,,CS FE321,,FDELEC
-Introduction to Deep Learning,,,CS FE411,,FDELEC
-Introduction to Opitmization,,,CS FE412,,FDELEC
-Introduction to Mobile Programming,,,CS FE413,,FDELEC
-Game Programming,,,CS FE414,,FDELEC
-Virtual Reality,,,CS FE415,,FDELEC
-Introduction to Internet of Things,,,CS FE416,,FDELEC
-Individual Study in Computer Science,,,CS FE417,,FDELEC
-Independent Research in Computer Science,,,CS FE418,,FDELEC
-Topics in Computer Science,,,CS FE419,,FDELEC
-Computer Science I,,,CS FE420,,FDELEC
-Computer Mastery,,,CS FE421,,FDELEC
-,,,,,
-,,,,,
-Thesis Extension,,,CS HE311,,HDELEC
-Masters Thesis,,,CS HE312,,HDELEC
-Graduate Topics in Computer Science,,,CS HE313,,HDELEC
-Graduate Individual Study in Computer Science,,,CS HE314,,HDELEC
-Advanced Internet of Things,,,CS HE315,,HDELEC
-Text Mining,,,CS HE316,,HDELEC
-Developing Intelligent Tutoring Systems,,,CS HE317,,HDELEC
-Artificial Neural Networks and Forecasting,,,CS HE318,,HDELEC
-Advanced Artificial Intelligence,,,CS HE319,,HDELEC
-Algorithms in Bioinformatics,,,CS HE320,,HDELEC
-Computational Thinking and Problem Solving,,,CS HE321,,HDELEC
-Pattern Recognition,,,CS HE411,,HDELEC
-Computer Vision & Pattern Recognition,,,CS HE412,,HDELEC
-Part-time CPT in CEG,,,CS HE413,,HDELEC
-Full-time CPT in CEG,,,CS HE414,,HDELEC
-Independent Study in Computer Engineering,,,CS HE415,,HDELEC
-Pattern Recognition,,,CS HE416,,HDELEC
-Distributed Computing,,,CS HE417,,HDELEC
-Embedded Systems,,,CS HE418,,HDELEC
-Dissertation Defense in Computer Science,,,CS HE419,,HDELEC
-Continuing Registration in Computer Science,,,CS HE420,,HDELEC
-Residency Research in Computer Science,,,CS HE421,,HDELEC
-Independent Study in Computer Science,,,CS HE511,,HDELEC
-Dissertation Research in Computer Science,,,CS HE512,,HDELEC
-Special Topics in Computer Science,,,CS HE513,,HDELEC
-Capstone Project - Cyber Security,,,CS HE514,,HDELEC
-Soft Computing,,,CS HE515,,HDELEC
-Special Topics in Computer Science,,,CS HE516,,HDELEC
-Metadata Representation Languages,,,CS HE517,,HDELEC
-Computability and Complexity,,,CS HE518,,HDELEC
-Advanced Data Mining,,,CS HE519,,HDELEC
-Algorithm Design and Analysis,,,CS HE520,,HDELEC
-Numerical Methods for Partial Differential Equations,,,CS HE521,,HDELEC
+Course Name,Course Code,Course TypeLogic_in_Computer Science1,CS F211,FDCDCLogic_in_Computer Science2,CS F212,FDCDCDiscrete_Structures_in_Computer Science,CS F213,FDCDCDigital_Design,CS F214,FDCDCObject Oriented Programming,CS F215,FDCDCData Structure and Algorithms,CS F311,FDCDCDatabase and Management Systems,CS F312,FDCDCMUP,CS F313,FDCDCOperating Systems,CS F314,FDCDCComputer Architecture,CS F315,FDCDCPrinciple of Programming Languages,CS F411,FDCDCTheory of Computation1,CS F412,FDCDCTheory of Computation2,CS F413,FDCDCOperating Systems2,CS F414,FDCDCPrinciple of Programming Languages2,CS F415,FDCDCComputer Programming,CS F111,FDCDCComputer Prograaming2,CS F112,FDCDCComputer Prograaming3,CS F113,FDCDCCompiler Construction,CS F114,FDCDCCompiler Construction2,CS F115,FDCDC,,,,Introduction to Data Mining,CS H111,HDCDCAnalysis and Intractability  of Algorithms,CS H112,HDCDCData Communication and Computer Networks,CS H113,HDCDCDesign Patterns and Object-Oriented Analysis,CS H114,HDCDCArtificial Intelligence ,CS H115,HDCDCResearch Preperation in Computer Science,CS H211,HDCDCIntroduction to Bioinformatics,CS H212,HDCDCAdvanced Computer Architectures,CS H213,HDCDCIntroduction to Computer Graphics,CS H214,HDCDCCryptography and Network Security,CS H215,HDCDCIntroduction to 3D Game Graphics,CS H311,HDCDCAdvanced Programming Languages,CS H312,HDCDCCompilers,CS H313,HDCDCIntelligent Information Retrieval,CS H314,HDCDCIntelligent Tutoring Systems,CS H315,HDCDCIntroduction to Text Mining,CS H411,HDCDCAdvanced Topics in Computer Science,CS H412,HDCDCAdvanced Operating Systems,CS H413,HDCDCAdvanced Computer Networks,CS H414,HDCDCAdvanced Database Management Systems,CS H415,HDCDC,,,,Intro to Computer Security,CS FE211,FDELECReal-Time Concepts for Embedded Systems ,CS FE212,FDELECIntroduction to Networking,CS FE213,FDELECIntroduction to Computer Security,CS FE214,FDELECCloud Computing,CS FE215,FDELECNumerical Analysis and Computing,CS FE216,FDELECLogic Programming,CS FE217,FDELECDigital Embedded Systems Design with HDL,CS FE218,FDELECPrinciples and Techniques of Data Science,CS FE219,FDELECIntroduction to Software Engineering,CS FE220,FDELECFoundations of Data Science,CS FE221,FDELECWeb Programming,CS FE311,FDELECComputer Systems Analysis and Design ,CS FE312,FDELECProject Management and Practice,CS FE313,FDELECComputational Thinking,CS FE314,FDELECAssembly Language and Digital Circuits,CS FE315,FDELECSelected Topics in Computing,CS FE316,FDELECAlgorithmic Justice,CS FE317,FDELECProblem Solving with Java Programming ,CS FE318,FDELECIntroduction to Computer Animation,CS FE319,FDELECIntroduction to Artificial Intelligence,CS FE320,FDELECArtificial Neural Networks,CS FE321,FDELECIntroduction to Deep Learning,CS FE411,FDELECIntroduction to Opitmization,CS FE412,FDELECIntroduction to Mobile Programming,CS FE413,FDELECGame Programming,CS FE414,FDELECVirtual Reality,CS FE415,FDELECIntroduction to Internet of Things,CS FE416,FDELECIndividual Study in Computer Science,CS FE417,FDELECIndependent Research in Computer Science,CS FE418,FDELECTopics in Computer Science,CS FE419,FDELECComputer Science I,CS FE420,FDELECComputer Mastery,CS FE421,FDELEC,,,,Thesis Extension,CS HE311,HDELECMasters Thesis,CS HE312,HDELECGraduate Topics in Computer Science,CS HE313,HDELECGraduate Individual Study in Computer Science,CS HE314,HDELECAdvanced Internet of Things,CS HE315,HDELECText Mining,CS HE316,HDELECDeveloping Intelligent Tutoring Systems,CS HE317,HDELECArtificial Neural Networks and Forecasting,CS HE318,HDELECAdvanced Artificial Intelligence,CS HE319,HDELECAlgorithms in Bioinformatics,CS HE320,HDELECComputational Thinking and Problem Solving,CS HE321,HDELECPattern Recognition,CS HE411,HDELECComputer Vision & Pattern Recognition,CS HE412,HDELECPart-time CPT in CEG,CS HE413,HDELECFull-time CPT in CEG,CS HE414,HDELECIndependent Study in Computer Engineering,CS HE415,HDELECPattern Recognition,CS HE416,HDELECDistributed Computing,CS HE417,HDELECEmbedded Systems,CS HE418,HDELECDissertation Defense in Computer Science,CS HE419,HDELECContinuing Registration in Computer Science,CS HE420,HDELECResidency Research in Computer Science,CS HE421,HDELECIndependent Study in Computer Science,CS HE511,HDELECDissertation Research in Computer Science,CS HE512,HDELECSpecial Topics in Computer Science,CS HE513,HDELECCapstone Project - Cyber Security,CS HE514,HDELECSoft Computing,CS HE515,HDELECSpecial Topics in Computer Science,CS HE516,HDELECMetadata Representation Languages,CS HE517,HDELECComputability and Complexity,CS HE518,HDELECAdvanced Data Mining,CS HE519,HDELECAlgorithm Design and Analysis,CS HE520,HDELECNumerical Methods for Partial Differential Equations,CS HE521,HDELEC
