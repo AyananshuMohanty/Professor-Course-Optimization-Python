@@ -1,3 +1,4 @@
+import pandas as pd
 from Course_Type import *
 class Course:
     def __init__(self, course_name, course_code, course_type):
@@ -16,3 +17,5 @@ class Course:
     
 disco=Course("Disco","CS F222",1)
 print(disco.getCourseType())
+df = pd.read_csv("coursedata.csv")
+print(df)
