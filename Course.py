@@ -1,4 +1,4 @@
-import Course_Type
+from Course_Type import *
 class Course:
     def __init__(self, course_name, course_code, course_type):
         self.course_name = course_name
@@ -8,8 +8,11 @@ class Course:
     def getName(self):
         return self.course_name
 
-    def getCourseno(self):
+    def getCourseCode(self):
         return self.course_code
 
-    def getCoursetype(self):
-        return Course_Type(self.course_type)
+    def getCourseType(self):
+        return Course_Type(self.course_type).name
+    
+disco=Course("Disco","CS F222",1)
+print(disco.getCourseType())
