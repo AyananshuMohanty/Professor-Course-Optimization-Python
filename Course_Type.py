@@ -1,7 +1,7 @@
 from enum import Enum
 
 class Course_Type(Enum):
-    CDC = 1
-    DEL = 2
+    FDCDC = 1
+    FDEL = 2
     HDCDC = 3
-    HDDEL = 4
+    HDEL = 4

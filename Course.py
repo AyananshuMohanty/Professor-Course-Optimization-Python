@@ -15,3 +15,10 @@ class Course:
     def getCourseType(self):
         return Course_Type(self.course_type).name
     
+    noOfProfsTakingCourse = 0
+    profsTakingCourse = []
+    def addProfTakingCourse(self, prof):
+        self.profsTakingCourse =+ prof
+        self.noOfProfsTakingCourse+=1
+        
+        
