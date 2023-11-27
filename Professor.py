@@ -1,3 +1,5 @@
+import pandas as pd
+from Course_Input import *
 class Professor:
     def __init__(self, name, ID):
         self.name = name
@@ -15,3 +17,14 @@ class Professor:
 
     def addPriority(self, Priority, Course):
         self.Priority_Order[Priority] = Course
+
+    def setPriority(self, priorityList):
+        Priority  = 0
+        self.Priorty_Order = []
+        coursenames = priorityList
+        coursenames = coursenames.astype(str)
+        # print(coursenames.iloc[0:1])
+        for i in coursenames:
+            self.Priority_Order[Priority] = d[i]
+            Priority = Priority + 1
+            
