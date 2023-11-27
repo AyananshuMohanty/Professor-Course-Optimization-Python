@@ -39,14 +39,14 @@ class Professor:
             elif count<10:
                 if i!="nan":    #if case for when professor has not filled an input
                     print(i)
-                    self.Priority_Order_FDCDC[count-4]=d[i]
+                    self.Priority_Order_HDCDC[count-4]=d[i]
             elif count<13:
                 if i!="nan":    #if case for when professor has not filled an input
                     print(i)
-                    self.Priority_Order_FDCDC[count-9]=d[i]
+                    self.Priority_Order_FDELC[count-9]=d[i]
             elif count<16:
                 if i!="nan":    #if case for when professor has not filled an input
                     print(i)
-                    self.Priority_Order_FDCDC[count-12]=d[i]
+                    self.Priority_Order_HDELC[count-12]=d[i]
             count+=1
             
