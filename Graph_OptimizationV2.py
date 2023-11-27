@@ -44,19 +44,22 @@ for edge in G.edges():
         if str(i.getID())==edge[1]:
             for j in courseList:
                 if str(j.getCourseCode())==edge[0]:
-                    if j in i.Priority_Order_FDCDC:
-                        edge_priority=i.Priority_Order_FDCDC.get(j)
-                        print(str(edge_priority))
-                        edge_labels[edge]= 'Priority: ' + str(edge_priority)
-                    elif j in i.Priority_Order_HDCDC:
-                        edge_priority=i.Priority_Order_HDCDC.get(j)
-                        edge_labels[edge]= 'Priority: ' + str(edge_priority)
-                    elif j in i.Priority_Order_FDELC:
-                        edge_priority=i.Priority_Order_FDELC.get(j)
-                        edge_labels[edge]= 'Priority: ' + str(edge_priority)
-                    elif j in i.Priority_Order_HDELC:
-                        edge_priority=i.Priority_Order_HDELC.get(j)
-                        edge_labels[edge]= 'Priority: ' + str(edge_priority)
+                    for key,value in i.Priority_Order_FDCDC.items():
+                        if j == value:
+                            edge_priority=key
+                            edge_labels[edge]= 'Priority: ' + str(edge_priority)
+                    for key,value in i.Priority_Order_HDCDC.items():
+                        if j == value:
+                            edge_priority=key
+                            edge_labels[edge]= 'Priority: ' + str(edge_priority)
+                    for key,value in i.Priority_Order_FDELC.items():
+                        if j == value:
+                            edge_priority=key
+                            edge_labels[edge]= 'Priority: ' + str(edge_priority)
+                    for key,value in i.Priority_Order_HDELC.items():
+                        if j == value:
+                            edge_priority=key
+                            edge_labels[edge]= 'Priority: ' + str(edge_priority)
         
 nx.draw_networkx_edge_labels(
     G, pos,
