@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from Course import Course
-df = pd.read_csv("CourseList.csv")
+df = pd.read_csv("Course_List.csv")
 df["Name"] = df["Name"].astype(str)
 df["CourseNo"] = df["CourseNo"].astype(str)
 df["CourseType"] = df["CourseType"].astype(np.int64)

@@ -1,1 +1,107 @@
-Name,CourseNo,CourseTypeLogic_in_Computer Science1,CS F211,1Logic_in_Computer Science2,CS F212,1Discrete_Structures_in_Computer Science,CS F213,1Digital_Design,CS F214,1Object Oriented Programming,CS F215,1Data Structure and Algorithms,CS F311,1Database and Management Systems,CS F312,1MUP,CS F313,1Operating Systems,CS F314,1Computer Architecture,CS F315,1Principle of Programming Languages,CS F411,1Theory of Computation1,CS F412,1Theory of Computation2,CS F413,1Operating Systems2,CS F414,1Principle of Programming Languages2,CS F415,1Computer Programming,CS F111,1Computer Prograaming2,CS F112,1Computer Prograaming3,CS F113,1Compiler Construction,CS F114,1Introduction to Data Mining,CS H111,3Analysis and Intractability Êof Algorithms,CS H112,3Data Communication and Computer Networks,CS H113,3Design Patterns and Object-Oriented Analysis,CS H114,3Artificial IntelligenceÊ,CS H115,3Research Preperation in Computer Science,CS H211,3Introduction to Bioinformatics,CS H212,3Advanced Computer Architectures,CS H213,3Introduction to Computer Graphics,CS H214,3Cryptography and Network Security,CS H215,3Introduction to 3D Game Graphics,CS H311,3Advanced Programming Languages,CS H312,3Compilers,CS H313,3Intelligent Information Retrieval,CS H314,3Intelligent Tutoring Systems,CS H315,3Introduction to Text Mining,CS H411,3Advanced Topics in Computer Science,CS H412,3Advanced Operating Systems,CS H413,3Advanced Computer Networks,CS H414,3Advanced Database Management Systems,CS H415,3Intro to Computer Security,CS FE211,2Real-Time Concepts for Embedded SystemsÊ,CS FE212,2Introduction to Networking,CS FE213,2Introduction to Computer Security,CS FE214,2Cloud Computing,,2Numerical Analysis and Computing,,2Logic Programming,,2Digital Embedded Systems Design with HDL,CS FE218,2Principles and Techniques of Data Science,CS FE219,2Introduction to Software Engineering,CS FE220,2Foundations of Data Science,CS FE221,2Web Programming,CS FE311,2Computer Systems Analysis and DesignÊ,CS FE312,2Project Management and Practice,CS FE313,2Computational Thinking,CS FE314,2Assembly Language and Digital Circuits,CS FE315,2Selected Topics in Computing,CS FE316,2Algorithmic Justice,CS FE317,2Problem Solving with Java ProgrammingÊ,CS FE318,2Introduction to Computer Animation,CS FE319,2Introduction to Artificial Intelligence,CS FE320,2Artificial Neural Networks,CS FE321,2Introduction to Deep Learning,CS FE411,2Introduction to Opitmization,CS FE412,2Introduction to Mobile Programming,CS FE413,2Game Programming,CS FE414,2Virtual Reality,CS FE415,2Introduction to Internet of Things,CS FE416,2Individual Study in Computer Science,CS FE417,2Independent Research in Computer Science,CS FE418,2Topics in Computer Science,CS FE419,2Computer Science I,CS FE420,2Computer Mastery,CS FE421,2Thesis Extension,CS HE311,4Masters Thesis,CS HE312,4Graduate Topics in Computer Science,CS HE313,4Graduate Individual Study in Computer Science,CS HE314,4Advanced Internet of Things,CS HE315,4Text Mining,CS HE316,4Developing Intelligent Tutoring Systems,CS HE317,4Artificial Neural Networks and Forecasting,CS HE318,4Advanced Artificial Intelligence,CS HE319,4Algorithms in Bioinformatics,CS HE320,4Computational Thinking and Problem Solving,CS HE321,4Pattern Recognition,CS HE411,4Computer Vision & Pattern Recognition,CS HE412,4Part-time CPT in CEG,CS HE413,4Full-time CPT in CEG,CS HE414,4Independent Study in Computer Engineering,CS HE415,4Pattern Recognition,CS HE416,4Distributed Computing,CS HE417,4Embedded Systems,CS HE418,4Dissertation Defense in Computer Science,CS HE419,4Continuing Registration in Computer Science,CS HE420,4Residency Research in Computer Science,CS HE421,4Independent Study in Computer Science,CS HE511,4Dissertation Research in Computer Science,CS HE512,4Special Topics in Computer Science,CS HE513,4Capstone Project - Cyber Security,CS HE514,4Soft Computing,CS HE515,4Special Topics in Computer Science,CS HE516,4Metadata Representation Languages,CS HE517,4Computability and Complexity,CS HE518,4Advanced Data Mining,CS HE519,4Algorithm Design and Analysis,CS HE520,4Numerical Methods for Partial Differential Equations,CS HE521,4
+Name,CourseNo,CourseType
+Logic_in_Computer Science1,CS F211,1
+Logic_in_Computer Science2,CS F212,1
+Discrete_Structures_in_Computer Science,CS F213,1
+Digital_Design,CS F214,1
+Object Oriented Programming,CS F215,1
+Data Structure and Algorithms,CS F311,1
+Database and Management Systems,CS F312,1
+MUP,CS F313,1
+Operating Systems,CS F314,1
+Computer Architecture,CS F315,1
+Principle of Programming Languages,CS F411,1
+Theory of Computation1,CS F412,1
+Theory of Computation2,CS F413,1
+Operating Systems2,CS F414,1
+Principle of Programming Languages2,CS F415,1
+Computer Programming,CS F111,1
+Computer Prograaming2,CS F112,1
+Computer Prograaming3,CS F113,1
+Compiler Construction,CS F114,1
+Compiler Construction2,CS F115,1
+Introduction to Data Mining,CS H111,3
+Analysis and Intractability ï¿½of Algorithms,CS H112,3
+Data Communication and Computer Networks,CS H113,3
+Design Patterns and Object-Oriented Analysis,CS H114,3
+Artificial Intelligenceï¿½,CS H115,3
+Research Preperation in Computer Science,CS H211,3
+Introduction to Bioinformatics,CS H212,3
+Advanced Computer Architectures,CS H213,3
+Introduction to Computer Graphics,CS H214,3
+Cryptography and Network Security,CS H215,3
+Introduction to 3D Game Graphics,CS H311,3
+Advanced Programming Languages,CS H312,3
+Compilers,CS H313,3
+Intelligent Information Retrieval,CS H314,3
+Intelligent Tutoring Systems,CS H315,3
+Introduction to Text Mining,CS H411,3
+Advanced Topics in Computer Science,CS H412,3
+Advanced Operating Systems,CS H413,3
+Advanced Computer Networks,CS H414,3
+Advanced Database Management Systems,CS H415,3
+Intro to Computer Security,CS FE211,2
+Real-Time Concepts for Embedded Systemsï¿½,CS FE212,2
+Introduction to Networking,CS FE213,2
+Introduction to Computer Security,CS FE214,2
+Cloud Computing,CS FE215,2
+Numerical Analysis and Computing,CS FE216,2
+Logic Programming,CS FE217,2
+Digital Embedded Systems Design with HDL,CS FE218,2
+Principles and Techniques of Data Science,CS FE219,2
+Introduction to Software Engineering,CS FE220,2
+Foundations of Data Science,CS FE221,2
+Web Programming,CS FE311,2
+Computer Systems Analysis and Designï¿½,CS FE312,2
+Project Management and Practice,CS FE313,2
+Computational Thinking,CS FE314,2
+Assembly Language and Digital Circuits,CS FE315,2
+Selected Topics in Computing,CS FE316,2
+Algorithmic Justice,CS FE317,2
+Problem Solving with Java Programmingï¿½,CS FE318,2
+Introduction to Computer Animation,CS FE319,2
+Introduction to Artificial Intelligence,CS FE320,2
+Artificial Neural Networks,CS FE321,2
+Introduction to Deep Learning,CS FE411,2
+Introduction to Opitmization,CS FE412,2
+Introduction to Mobile Programming,CS FE413,2
+Game Programming,CS FE414,2
+Virtual Reality,CS FE415,2
+Introduction to Internet of Things,CS FE416,2
+Individual Study in Computer Science,CS FE417,2
+Independent Research in Computer Science,CS FE418,2
+Topics in Computer Science,CS FE419,2
+Computer Science I,CS FE420,2
+Computer Mastery,CS FE421,2
+Thesis Extension,CS HE311,4
+Masters Thesis,CS HE312,4
+Graduate Topics in Computer Science,CS HE313,4
+Graduate Individual Study in Computer Science,CS HE314,4
+Advanced Internet of Things,CS HE315,4
+Text Mining,CS HE316,4
+Developing Intelligent Tutoring Systems,CS HE317,4
+Artificial Neural Networks and Forecasting,CS HE318,4
+Advanced Artificial Intelligence,CS HE319,4
+Algorithms in Bioinformatics,CS HE320,4
+Computational Thinking and Problem Solving,CS HE321,4
+Pattern Recognition,CS HE411,4
+Computer Vision & Pattern Recognition,CS HE412,4
+Part-time CPT in CEG,CS HE413,4
+Full-time CPT in CEG,CS HE414,4
+Independent Study in Computer Engineering,CS HE415,4
+Pattern Recognition,CS HE416,4
+Distributed Computing,CS HE417,4
+Embedded Systems,CS HE418,4
+Dissertation Defense in Computer Science,CS HE419,4
+Continuing Registration in Computer Science,CS HE420,4
+Residency Research in Computer Science,CS HE421,4
+Independent Study in Computer Science,CS HE511,4
+Dissertation Research in Computer Science,CS HE512,4
+Special Topics in Computer Science,CS HE513,4
+Capstone Project - Cyber Security,CS HE514,4
+Soft Computing,CS HE515,4
+Special Topics in Computer Science,CS HE516,4
+Metadata Representation Languages,CS HE517,4
+Computability and Complexity,CS HE518,4
+Advanced Data Mining,CS HE519,4
+Algorithm Design and Analysis,CS HE520,4
+Numerical Methods for Partial Differential Equations,CS HE521,4
