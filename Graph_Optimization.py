@@ -1,6 +1,7 @@
 from Course_Input import *
 from Professor_Input import *
 import networkx as nx
+import matplotlib.pyplot as plt
 
 G = nx.Graph()
 print(G)
@@ -47,4 +48,5 @@ for professor in professorList:
             # )
 
 print(G)
-# nx.draw(G, with_labels = True)       
+nx.draw(G, with_labels = True)
+plt.savefig("filename.png")
