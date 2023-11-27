@@ -19,13 +19,13 @@ class Professor:
         return self.Priority_Order_FDCDC[x]
     
     def getHDCDCPriority(self, x):
-        return self.Priority_Order_HDCDC[x]
+        return self.Priority_Order_FDCDC[x]
     
     def getFDELCPriority(self, x):
-        return self.Priority_Order_FDELC[x]
+        return self.Priority_Order_HDCDC[x]
     
     def getHDELCPriority(self, x):
-        return self.Priority_Order_HDELC[x]
+        return self.Priority_Order_FDELC[x]
 
     def setPriority(self, priorityList):
         courseCodes = priorityList
@@ -50,3 +50,11 @@ class Professor:
                     self.Priority_Order_HDELC[count-12]=d[i]
             count+=1
             
+    coursesTaken = []
+    noOfCoursesTaken = 0
+    coursesRemaining = 0
+    def setCoursesRemaining(self, x):
+        self.coursesRemaining = x
+    def addCourseTaken(self, course):
+        self.coursesTaken += course
+        self.noOfCoursesTaken+=1
