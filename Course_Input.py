@@ -13,7 +13,7 @@ courselist = []
 for i in range(0,numberOfCourses):
     course = Course(df.iloc[i]["Name"], df.iloc[i]["CourseNo"], df.iloc[i]["CourseType"])
     courselist.append(course)
-    d[course.getName()] = course
+    d[course.getCourseCode()] = course
 
 # print(courselist)
 # print(d["MUP"])
