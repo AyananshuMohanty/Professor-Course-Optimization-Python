@@ -17,6 +17,3 @@ for i in range(0,numberOfProfessors):
     print(professor.getName())
     professor.setPriority(df.iloc[i, 2:19])
     
-    
-
-# print(professorList)

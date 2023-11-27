@@ -4,7 +4,10 @@ class Professor:
     def __init__(self, name, ID):
         self.name = name
         self.ID = ID
-        self.Priority_Order = {}
+        self.Priority_Order_FDCDC={}    #Dictionary(Priority,Course)
+        self.Priority_Order_HDCDC={}    #Dictionary(Priority,Course)
+        self.Priority_Order_FDELC={}    #Dictionary(Priority,Course)
+        self.Priority_Order_HDELC={}    #Dictionary(Priority,Course)
 
     def getName(self):
         return self.name
@@ -12,20 +15,38 @@ class Professor:
     def getID(self):
         return self.ID
     
-    def getPriority(self, x):
-        return self.Priority_Order[x]
-
-    def addPriority(self, Priority, Course):
-        self.Priority_Order[Priority] = Course
+    def getFDCDCPriority(self, x):
+        return self.Priority_Order_FDCDC[x]
+    
+    def getHDCDCPriority(self, x):
+        return self.Priority_Order_FDCDC[x]
+    
+    def getFDELCPriority(self, x):
+        return self.Priority_Order_HDCDC[x]
+    
+    def getHDELCPriority(self, x):
+        return self.Priority_Order_FDELC[x]
 
     def setPriority(self, priorityList):
-        Priority  = 0
         courseCodes = priorityList
         courseCodes = courseCodes.astype(str)
-        # print(courseCodes.iloc[0:1])
+        count=0
         for i in courseCodes:
-            if i!="nan":    #if case for when professor has not filled an input
-                print(i)
-                self.addPriority(Priority,d[i])
-                Priority = Priority + 1
+            if count<5:
+                if i!="nan":    #if case for when professor has not filled an input
+                    print(i)
+                    self.Priority_Order_FDCDC[count+1]=d[i]
+            elif count<10:
+                if i!="nan":    #if case for when professor has not filled an input
+                    print(i)
+                    self.Priority_Order_FDCDC[count-4]=d[i]
+            elif count<13:
+                if i!="nan":    #if case for when professor has not filled an input
+                    print(i)
+                    self.Priority_Order_FDCDC[count-9]=d[i]
+            elif count<16:
+                if i!="nan":    #if case for when professor has not filled an input
+                    print(i)
+                    self.Priority_Order_FDCDC[count-12]=d[i]
+            count+=1
             
