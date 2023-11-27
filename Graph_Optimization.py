@@ -2,7 +2,7 @@ from Course_Input import *
 from Professor_Input import *
 import networkx as nx
 import matplotlib.pyplot as plt
-
+plt.figure(figsize=(100, 100))
 G = nx.Graph()
 print(G)
 
@@ -19,42 +19,40 @@ for professor in professorList:
         courseCode=professor.getFDCDCPriority(i).getCourseCode()
         if professor.getFDCDCPriority(i)!='nan':
             G.add_edge(professorID,courseCode)
-            nx.draw_networkx_edge_labels(
-                G, pos,
-                edge_labels={(professorID,courseCode): 'Priority: ' + str(i)},
-                font_color='red'
-            )
             
     for i in range(1,len(professor.Priority_Order_HDCDC)+1):
         courseCode=professor.getHDCDCPriority(i).getCourseCode()
         if professor.getHDCDCPriority(i)!='nan':
             G.add_edge(professorID,courseCode)
-            nx.draw_networkx_edge_labels(
-                G, pos,
-                edge_labels={(professorID,courseCode): 'Priority: ' + str(i)},
-                font_color='red'
-            )
             
     for i in range(1,len(professor.Priority_Order_FDELC)+1):
         courseCode=professor.getFDELCPriority(i).getCourseCode()
         if professor.getFDELCPriority(i)!='nan':
             G.add_edge(professorID,courseCode)
-            nx.draw_networkx_edge_labels(
-                G, pos,
-                edge_labels={(professorID,courseCode): 'Priority: ' + str(i)},
-                font_color='red'
-            )
             
     for i in range(1,len(professor.Priority_Order_HDELC)+1):
         courseCode=professor.getHDELCPriority(i).getCourseCode()
         if professor.getHDELCPriority(i)!='nan':
             G.add_edge(professorID,courseCode)
-            nx.draw_networkx_edge_labels(
-                G, pos,
-                edge_labels={(professorID,courseCode): 'Priority: ' + str(i)},
-                font_color='red'
-            )
 
 print(G)
-nx.draw(G, with_labels = True)
+
+edge_label_dictionary={}
+for edges in G.edges():
+    edge_label_dictionary[edges]=edges[0]
+
+# nx.draw_networkx_edge_labels(
+#     G, pos,
+#     edge_label_dictionary,
+#     font_color='red'
+# )
+
+print(G)
+options = {
+    'node_color': 'yellow',     # color of node
+    'node_size': 3500,          # size of node
+    'width': 1,                 # line width of edges  
+    'edge_color':'blue',        # edge color
+}
+nx.draw(G, pos, with_labels = True)
 plt.savefig("Graph.png")
