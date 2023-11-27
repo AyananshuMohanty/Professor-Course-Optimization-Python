@@ -49,4 +49,4 @@ for professor in professorList:
 
 print(G)
 nx.draw(G, with_labels = True)
-plt.savefig("filename.png")
+plt.savefig("Graph.png")
