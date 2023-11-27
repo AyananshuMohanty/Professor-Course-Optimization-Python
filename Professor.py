@@ -20,7 +20,6 @@ class Professor:
 
     def setPriority(self, priorityList):
         Priority  = 0
-        self.Priorty_Order = []
         courseCodes = priorityList
         courseCodes = courseCodes.astype(str)
         # print(courseCodes.iloc[0:1])
