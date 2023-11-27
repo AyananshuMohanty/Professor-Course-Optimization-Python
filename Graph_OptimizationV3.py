@@ -45,6 +45,12 @@ nx.draw_networkx_edge_labels(
     edge_labels=edge_labels,
     font_color='red'
 )
-
+options = {
+    'node_color': 'yellow',     # color of node
+    'node_size': 3500,          # size of node
+    'width': 1,                 # line width of edges  
+    'edge_color':'blue',        # edge color
+}
+nx.draw(G, pos, with_labels = True,**options)
 plt.savefig("Graph.png")
 plt.show()
