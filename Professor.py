@@ -21,11 +21,11 @@ class Professor:
     def setPriority(self, priorityList):
         Priority  = 0
         self.Priorty_Order = []
-        coursenames = priorityList
-        coursenames = coursenames.astype(str)
-        # print(coursenames.iloc[0:1])
-        for i in coursenames:
+        courseCodes = priorityList
+        courseCodes = courseCodes.astype(str)
+        # print(courseCodes.iloc[0:1])
+        for i in courseCodes:
             if i!="None":
-                self.Priority_Order[Priority] = d[i]
+                self.addPriority(Priority,d[i])
                 Priority = Priority + 1
             
