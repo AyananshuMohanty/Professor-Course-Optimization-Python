@@ -20,12 +20,12 @@ class Professor:
 
     def setPriority(self, priorityList):
         Priority  = 0
-        self.Priorty_Order = []
-        coursenames = priorityList
-        coursenames = coursenames.astype(str)
-        # print(coursenames.iloc[0:1])
-        for i in coursenames:
-            if i!="None":
-                self.Priority_Order[Priority] = d[i]
+        courseCodes = priorityList
+        courseCodes = courseCodes.astype(str)
+        # print(courseCodes.iloc[0:1])
+        for i in courseCodes:
+            if i!="nan":    #if case for when professor has not filled an input
+                print(i)
+                self.addPriority(Priority,d[i])
                 Priority = Priority + 1
             
