@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from Professor import Professor
-df = pd.read_csv("File_input.csv")
+df = pd.read_csv("File_Input.csv")
 # print(df)
 df['Name'] = df['Name'].astype(str)
 df['ID'] = df['ID'].astype(str)
