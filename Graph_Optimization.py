@@ -2,22 +2,22 @@ from Course_Input import *
 from Professor_Input import *
 import networkx as nx
 
-G = nx.DiGraph(directed=True)
+G = nx.Graph()
 print(G)
 
 for course in courselist:
-    G.add_node(course.getCourseCode())
+    G.add_node(course)
     
-pos = nx.circular_layout(G)
+pos = nx.spring_layout(G)
 
 for professor in professorList:
-    G.add_node(professor.getID())
+    G.add_node(professor)
     for i in range(16):
-        if i!=None:
-            G.add_edge(professor.getName(),professor.getPriority(i))
+        if professor.getPriority(i)!='nan':
+            G.add_edge(professor,professor.getPriority(i))
             nx.draw_networkx_edge_labels(
                 G, pos,
-                edge_labels={(professor.getName(),professor.getPriority(i)): 'Priority: ' + i},
+                edge_labels={(professor,professor.getPriority(i)): 'Priority: ' + str(i)},
                 font_color='red'
             )
 
