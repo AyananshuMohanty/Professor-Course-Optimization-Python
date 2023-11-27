@@ -24,7 +24,8 @@ class Professor:
         courseCodes = courseCodes.astype(str)
         # print(courseCodes.iloc[0:1])
         for i in courseCodes:
-            if i!="None":
+            if i!="nan":    #if case for when professor has not filled an input
+                print(i)
                 self.addPriority(Priority,d[i])
                 Priority = Priority + 1
             

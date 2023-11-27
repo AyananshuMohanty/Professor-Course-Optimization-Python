@@ -14,6 +14,7 @@ professorList = []
 for i in range(0,numberOfProfessors):
     professor = Professor(df.iloc[i]["Name"], df.iloc[i]["ID"])
     professorList.append(professor)
+    print(professor.getName())
     professor.setPriority(df.iloc[i, 2:19])
     
     
