@@ -8,7 +8,7 @@ print(G)
 
 pos = nx.spring_layout(G)
 
-for course in courselist:
+for course in courseList:
     G.add_node(course.getName())
     
 

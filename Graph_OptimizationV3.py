@@ -6,9 +6,9 @@ plt.figure(figsize=(40, 40))
 G = nx.Graph()
 print(G)
 
-pos = nx.spring_layout(G)
+pos = nx.circular_layout(G)
 
-for course in courselist:
+for course in courseList:
     G.add_node(course.getCourseCode())
 
 for professor in professorList:
@@ -18,26 +18,24 @@ for professor in professorList:
     for i in range(1, len(professor.Priority_Order_FDCDC) + 1):
         courseCode = professor.getFDCDCPriority(i).getCourseCode()
         if professor.getFDCDCPriority(i) != 'nan':
-            G.add_edge(professorID, courseCode)
+            G.add_edge(professorID, courseCode,length=100)
 
     for i in range(1, len(professor.Priority_Order_HDCDC) + 1):
         courseCode = professor.getHDCDCPriority(i).getCourseCode()
         if professor.getHDCDCPriority(i) != 'nan':
-            G.add_edge(professorID, courseCode)
+            G.add_edge(professorID, courseCode,length=100)
 
     for i in range(1, len(professor.Priority_Order_FDELC) + 1):
         courseCode = professor.getFDELCPriority(i).getCourseCode()
         if professor.getFDELCPriority(i) != 'nan':
-            G.add_edge(professorID, courseCode)
+            G.add_edge(professorID, courseCode,length=100)
 
     for i in range(1, len(professor.Priority_Order_HDELC) + 1):
         courseCode = professor.getHDELCPriority(i).getCourseCode()
         if professor.getHDELCPriority(i) != 'nan':
-            G.add_edge(professorID, courseCode)
+            G.add_edge(professorID, courseCode,length=100)
 
-pos = nx.spring_layout(G)
-
-nx.draw(G, pos, with_labels=True)
+pos = nx.circular_layout(G)
 
 edge_labels = {(professorID, courseCode): 'Priority: ' + str(i) for i in range(1, len(professor.Priority_Order_FDCDC) + 1)}
 nx.draw_networkx_edge_labels(
