@@ -2,57 +2,73 @@ from Course_Input import *
 from Professor_Input import *
 import networkx as nx
 import matplotlib.pyplot as plt
-plt.figure(figsize=(100, 100))
+plt.figure(figsize=(40, 40))
 G = nx.Graph()
 print(G)
 
-pos = nx.spring_layout(G)
+pos = nx.circular_layout(G)
 
-for course in courselist:
-    G.add_node(course.getName())
-    
+for course in courseList:
+    G.add_node(course.getCourseCode())
 
 for professor in professorList:
-    professorID=professor.getID()
+    professorID = professor.getID()
     G.add_node(professorID)
-    for i in range(1,len(professor.Priority_Order_FDCDC)+1):
-        courseCode=professor.getFDCDCPriority(i).getCourseCode()
-        if professor.getFDCDCPriority(i)!='nan':
-            G.add_edge(professorID,courseCode)
-            
-    for i in range(1,len(professor.Priority_Order_HDCDC)+1):
-        courseCode=professor.getHDCDCPriority(i).getCourseCode()
-        if professor.getHDCDCPriority(i)!='nan':
-            G.add_edge(professorID,courseCode)
-            
-    for i in range(1,len(professor.Priority_Order_FDELC)+1):
-        courseCode=professor.getFDELCPriority(i).getCourseCode()
-        if professor.getFDELCPriority(i)!='nan':
-            G.add_edge(professorID,courseCode)
-            
-    for i in range(1,len(professor.Priority_Order_HDELC)+1):
-        courseCode=professor.getHDELCPriority(i).getCourseCode()
-        if professor.getHDELCPriority(i)!='nan':
-            G.add_edge(professorID,courseCode)
 
-print(G)
+    for i in range(1, len(professor.Priority_Order_FDCDC) + 1):
+        courseCode = professor.getFDCDCPriority(i).getCourseCode()
+        if professor.getFDCDCPriority(i) != 'nan':
+            G.add_edge(professorID, courseCode,length=100)
 
-edge_label_dictionary={}
-for edges in G.edges():
-    edge_label_dictionary[edges]=edges[0]
+    for i in range(1, len(professor.Priority_Order_HDCDC) + 1):
+        courseCode = professor.getHDCDCPriority(i).getCourseCode()
+        if professor.getHDCDCPriority(i) != 'nan':
+            G.add_edge(professorID, courseCode,length=100)
 
-# nx.draw_networkx_edge_labels(
-#     G, pos,
-#     edge_label_dictionary,
-#     font_color='red'
-# )
+    for i in range(1, len(professor.Priority_Order_FDELC) + 1):
+        courseCode = professor.getFDELCPriority(i).getCourseCode()
+        if professor.getFDELCPriority(i) != 'nan':
+            G.add_edge(professorID, courseCode,length=100)
 
-print(G)
+    for i in range(1, len(professor.Priority_Order_HDELC) + 1):
+        courseCode = professor.getHDELCPriority(i).getCourseCode()
+        if professor.getHDELCPriority(i) != 'nan':
+            G.add_edge(professorID, courseCode,length=100)
+
+pos = nx.circular_layout(G)
+
+edge_labels={}
+for edge in G.edges():
+    edge_priority=0
+    for i in professorList:
+        if str(i.getID())==edge[1]:
+            for j in courseList:
+                if str(j.getCourseCode())==edge[0]:
+                    if j in i.Priority_Order_FDCDC:
+                        edge_priority=i.Priority_Order_FDCDC.get(j)
+                        print(str(edge_priority))
+                        edge_labels[edge]= 'Priority: ' + str(edge_priority)
+                    elif j in i.Priority_Order_HDCDC:
+                        edge_priority=i.Priority_Order_HDCDC.get(j)
+                        edge_labels[edge]= 'Priority: ' + str(edge_priority)
+                    elif j in i.Priority_Order_FDELC:
+                        edge_priority=i.Priority_Order_FDELC.get(j)
+                        edge_labels[edge]= 'Priority: ' + str(edge_priority)
+                    elif j in i.Priority_Order_HDELC:
+                        edge_priority=i.Priority_Order_HDELC.get(j)
+                        edge_labels[edge]= 'Priority: ' + str(edge_priority)
+        
+nx.draw_networkx_edge_labels(
+    G, pos,
+    edge_labels=edge_labels,
+    font_color='red'
+)
 options = {
     'node_color': 'yellow',     # color of node
     'node_size': 3500,          # size of node
     'width': 1,                 # line width of edges  
     'edge_color':'blue',        # edge color
 }
-nx.draw(G, pos, with_labels = True)
+nx.draw(G, pos, with_labels = True,**options)
 plt.savefig("Graph.png")
+plt.show()
