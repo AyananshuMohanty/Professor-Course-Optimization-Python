@@ -2,7 +2,7 @@ from Course_Input import *
 from Professor_Input import *
 import networkx as nx
 import matplotlib.pyplot as plt
-plt.figure(figsize=(40, 40))
+plt.figure(figsize=(100, 100))
 G = nx.Graph()
 print(G)
 
@@ -67,10 +67,10 @@ nx.draw_networkx_edge_labels(
     font_color='red'
 )
 options = {
-    'node_color': 'yellow',     # color of node
-    'node_size': 3500,          # size of node
+    'node_color': 'teal',     # color of node
+    'node_size': 4500,          # size of node
     'width': 1,                 # line width of edges  
-    'edge_color':'blue',        # edge color
+    'edge_color':'black',        # edge color
 }
 nx.draw(G, pos, with_labels = True,**options)
 plt.savefig("Graph.png")
