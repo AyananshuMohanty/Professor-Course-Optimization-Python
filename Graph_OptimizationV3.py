@@ -9,7 +9,7 @@ print(G)
 pos = nx.spring_layout(G)
 
 for course in courselist:
-    G.add_node(course.getName())
+    G.add_node(course.getCourseCode())
 
 for professor in professorList:
     professorID = professor.getID()
