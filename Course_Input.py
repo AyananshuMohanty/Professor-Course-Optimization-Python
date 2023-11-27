@@ -8,7 +8,7 @@ df["CourseNo"] = df["CourseNo"].astype(str)
 df["CourseType"] = df["CourseType"].astype(np.int64)
 # print(df.iloc[0]["Name"])
 d = {}
-numberOfCourses=df['Name'].count()
+numberOfCourses=df["Name"].count()
 courselist = []
 for i in range(0,numberOfCourses):
     course = Course(df.iloc[i]["Name"], df.iloc[i]["CourseNo"], df.iloc[i]["CourseType"])

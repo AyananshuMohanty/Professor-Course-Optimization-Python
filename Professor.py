@@ -25,6 +25,7 @@ class Professor:
         coursenames = coursenames.astype(str)
         # print(coursenames.iloc[0:1])
         for i in coursenames:
-            self.Priority_Order[Priority] = d[i]
-            Priority = Priority + 1
+            if i!="None":
+                self.Priority_Order[Priority] = d[i]
+                Priority = Priority + 1
             
