@@ -18,7 +18,7 @@ class Course:
     noOfProfsTakingCourse = 0
     profsTakingCourse = []
     def addProfTakingCourse(self, prof):
-        self.profsTakingCourse =+ prof
+        self.profsTakingCourse.append(prof)
         self.noOfProfsTakingCourse+=1
         
         
