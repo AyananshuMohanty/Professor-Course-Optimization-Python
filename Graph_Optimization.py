@@ -8,7 +8,7 @@ print(G)
 
 pos = nx.circular_layout(G)
 
-for course in courseList:
+for course in courselist:
     G.add_node(course.getCourseCode())
 
 for professor in professorList:
@@ -42,7 +42,7 @@ for edge in G.edges():
     edge_priority=0
     for i in professorList:
         if str(i.getID())==edge[1]:
-            for j in courseList:
+            for j in courselist:
                 if str(j.getCourseCode())==edge[0]:
                     for key,value in i.Priority_Order_FDCDC.items():
                         if j == value:
