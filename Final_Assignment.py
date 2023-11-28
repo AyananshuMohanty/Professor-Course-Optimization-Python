@@ -8,7 +8,7 @@ Final_Assignment_Score=99999
 
 for i in range(10000):
     Course_Assignment()
-    if FitnessScore()>Final_Assignment_Score:
+    if FitnessScore()<Final_Assignment_Score:
         Final_Assignment=courselist
 
 for course in Final_Assignment:
