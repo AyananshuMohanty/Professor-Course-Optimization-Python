@@ -77,4 +77,79 @@ def Course_Assignment():
                         PickProfessor.coursesRemaining-=1
                         course.addProfTakingCourse(PickProfessor)
                         Assigned=True
+                        
+
+    for course in ELCList:
+        UnassignedProfessorsWithCourseInPriorityList=[]
+        for professor in UnassignedProfessor:
+            if ((course in list((professor.Priority_Order_FDELC).values())) or (course in list((professor.Priority_Order_HDELC).values()))):
+                UnassignedProfessorsWithCourseInPriorityList.append(professor)
+        numberOf0_5Profs=0
+        numberOf1Profs=0
+        numberOf1_5Profs=0
+        for prof in UnassignedProfessorsWithCourseInPriorityList:
+            if prof.coursesRemaining==0.5:
+                numberOf0_5Profs+=1
+            elif prof.coursesRemaining==1:
+                numberOf1Profs+=1
+            elif prof.coursesRemaining==1.5:
+                numberOf1_5Profs+=1
+        Assigned=False
+        if ((numberOf0_5Profs<2) and (numberOf1Profs==0) and (numberOf1_5Profs==0)): #checks if it is possible to assign elective
+            Assigned=True
+        
+        if len(UnassignedProfessorsWithCourseInPriorityList)>0:
+            while Assigned==False:   #loops until a professor is assigned to this course
+                PickProfessor=random.choice(UnassignedProfessorsWithCourseInPriorityList) #chooses one of the professors who have this course in their priority list
+                UnassignedProfessorsWithCourseInPriorityList.remove(PickProfessor)
+                
+                if len(UnassignedProfessorsWithCourseInPriorityList)>0:
+                    if PickProfessor.coursesRemaining==0.5:
+                        PotentialCandidates=[]
+                        for professor2 in UnassignedProfessorsWithCourseInPriorityList:
+                            if ((professor2.coursesRemaining==0.5) or (professor2.coursesRemaining==1.5)) :
+                                PotentialCandidates.append(professor2)
+                        if len(PotentialCandidates)!=0:
+                            PickProfessor2=random.choice(PotentialCandidates)
+                            PickProfessor.coursesRemaining-=0.5
+                            PickProfessor2.coursesRemaining-=0.5
+                            course.addProfTakingCourse(PickProfessor)
+                            course.addProfTakingCourse(PickProfessor2)
+                            UnassignedProfessor.remove(PickProfessor2)
+                            Assigned=True
+                        else:
+                            Assigned=False
                     
+                    elif PickProfessor.coursesRemaining==1:
+                        PickProfessor.coursesRemaining-=1
+                        course.addProfTakingCourse(PickProfessor)
+                        Assigned=True
+                    
+                    elif PickProfessor.coursesRemaining==1.5:
+                        PotentialCandidates=[]
+                        for professor2 in UnassignedProfessorsWithCourseInPriorityList:
+                            if ((professor2.coursesRemaining==0.5) or (professor2.coursesRemaining==1.5)) :
+                                PotentialCandidates.append(professor2)
+                        if len(PotentialCandidates)!=0:
+                            PickProfessor2=random.choice(PotentialCandidates)
+                            PickProfessor.coursesRemaining-=0.5
+                            PickProfessor2.coursesRemaining-=0.5
+                            course.addProfTakingCourse(PickProfessor)
+                            course.addProfTakingCourse(PickProfessor2)
+                            UnassignedProfessor.remove(PickProfessor2)
+                            Assigned=True
+                        else:
+                            PickProfessor.coursesRemaining-=1
+                            course.addProfTakingCourse(PickProfessor)
+                            Assigned=True
+                else:
+                    if PickProfessor.coursesRemaining==0.5:
+                        Assigned=False
+                    elif PickProfessor.coursesRemaining==1:
+                        PickProfessor.coursesRemaining-=1
+                        course.addProfTakingCourse(PickProfessor)
+                        Assigned=True
+                    elif PickProfessor.coursesRemaining==1.5:
+                        PickProfessor.coursesRemaining-=1
+                        course.addProfTakingCourse(PickProfessor)
+                        Assigned=True                    
