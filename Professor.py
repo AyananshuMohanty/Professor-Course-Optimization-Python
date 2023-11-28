@@ -56,5 +56,12 @@ class Professor:
     def setCoursesRemaining(self, x):
         self.coursesRemaining = x
     def addCourseTaken(self, course):
+        course.addProfTakingCourse(self)
         self.coursesTaken += course
         self.noOfCoursesTaken+=1
+        if course.noOfProfsTakingCourse == 0:
+            self.coursesRemaining-=1
+        elif course.noOfProfsTakingCourse == 0:
+            self.coursesRemaining-=0.5
+            course.profsTakingCourse[0].coursesRemaining+-0.5
+            
