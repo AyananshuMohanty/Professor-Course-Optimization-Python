@@ -22,12 +22,12 @@ def Course_Assignment():
                 UnassignedProfessorsWithCourseInPriorityList.append(professor)
         Assigned=False
         
-        if len(UnassignedProfessorsWithCourseInPriorityList)!=0:
+        if len(UnassignedProfessorsWithCourseInPriorityList)>0:
             while Assigned==False:   #loops until a professor is assigned to this course
                 PickProfessor=random.choice(UnassignedProfessorsWithCourseInPriorityList) #chooses one of the professors who have this course in their priority list
                 UnassignedProfessorsWithCourseInPriorityList.remove(PickProfessor)
                 
-                if len(UnassignedProfessorsWithCourseInPriorityList)!=0:
+                if len(UnassignedProfessorsWithCourseInPriorityList)>0:
                     if PickProfessor.coursesRemaining==0.5:
                         PotentialCandidates=[]
                         for professor2 in UnassignedProfessorsWithCourseInPriorityList:
