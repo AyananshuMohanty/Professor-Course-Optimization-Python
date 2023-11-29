@@ -13,6 +13,9 @@ for i in range(0,numberOfCourses):
     courselist.append(course)
     d[course.getCourseCode()] = course
 
-print(courselist)
+courseListInitial = courselist
+# for course in courselist:
+#     print(type(course.getCourseType()))
 # print(d["MUP"])
-print(d.keys())
+# for key in d.keys():
+#     print(d[key])

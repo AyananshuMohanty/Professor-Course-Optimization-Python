@@ -18,3 +18,5 @@ for i in range(0,numberOfProfessors):
     professor.setPriority(df.iloc[i, 2:19])
     x = df.iloc[i]['x']
     professor.setCoursesRemaining(x)
+    
+professorListInitial = professorList
