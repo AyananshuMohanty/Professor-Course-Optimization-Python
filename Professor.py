@@ -1,13 +1,14 @@
 import pandas as pd
 from Course_Input import *
 class Professor:
-    def __init__(self, name, ID):
+    def __init__(self, name, ID,x):
         self.name = name
         self.ID = ID
         self.Priority_Order_FDCDC={}    #Dictionary(Priority,Course)
         self.Priority_Order_HDCDC={}    #Dictionary(Priority,Course)
         self.Priority_Order_FDELC={}    #Dictionary(Priority,Course)
         self.Priority_Order_HDELC={}    #Dictionary(Priority,Course)
+        self.coursesRemaining = x
 
     def getName(self):
         return self.name
@@ -34,34 +35,29 @@ class Professor:
         for i in courseCodes:
             if count<5:
                 if i!="nan":    #if case for when professor has not filled an input
-                    print(i)
                     self.Priority_Order_FDCDC[count+1]=d[i]
             elif count<10:
                 if i!="nan":    #if case for when professor has not filled an input
-                    print(i)
                     self.Priority_Order_HDCDC[count-4]=d[i]
             elif count<13:
                 if i!="nan":    #if case for when professor has not filled an input
-                    print(i)
                     self.Priority_Order_FDELC[count-9]=d[i]
             elif count<16:
                 if i!="nan":    #if case for when professor has not filled an input
-                    print(i)
                     self.Priority_Order_HDELC[count-12]=d[i]
             count+=1
             
-    coursesTaken = []
-    noOfCoursesTaken = 0
-    coursesRemaining = 0
-    def setCoursesRemaining(self, x):
-        self.coursesRemaining = x
-    def addCourseTaken(self, course):
-        course.addProfTakingCourse(self)
-        self.coursesTaken += course
-        self.noOfCoursesTaken+=1
-        if course.noOfProfsTakingCourse == 0:
-            self.coursesRemaining-=1
-        elif course.noOfProfsTakingCourse == 0:
-            self.coursesRemaining-=0.5
-            course.profsTakingCourse[0].coursesRemaining+-0.5
+    # coursesTaken = []
+    # noOfCoursesTaken = 0
+    # def setCoursesRemaining(self, x):
+    #     self.coursesRemaining = x
+    # def addCourseTaken(self, course):
+    #     course.addProfTakingCourse(self)
+    #     self.coursesTaken += course
+    #     self.noOfCoursesTaken+=1
+    #     if course.noOfProfsTakingCourse == 0:
+    #         self.coursesRemaining-=1
+    #     elif course.noOfProfsTakingCourse == 0:
+    #         self.coursesRemaining-=0.5
+    #         course.profsTakingCourse[0].coursesRemaining+-0.5
             

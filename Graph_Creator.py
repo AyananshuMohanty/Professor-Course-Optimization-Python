@@ -1,9 +1,7 @@
-from Course_Input import *
-from Professor_Input import *
 import networkx as nx
 import matplotlib.pyplot as plt
 
-def Graph_Creator():      #not sure if putting import statements outside the function header updates the value stored in inport statements when the function is called
+def Graph_Creator(courselist,professorList):      #not sure if putting import statements outside the function header updates the value stored in inport statements when the function is called
     
     plt.figure(figsize=(100, 100))
     G = nx.Graph()
@@ -18,7 +16,7 @@ def Graph_Creator():      #not sure if putting import statements outside the fun
     for course in courselist:
         G.add_node(course.getCourseCode())
         for professor in course.profsTakingCourse:
-            G.add_edge(professorID.getID(), course.getCourseCode(),length=100)
+            G.add_edge(professor.getID(), course.getCourseCode(),length=100)
     pos = nx.circular_layout(G)
 
     edge_labels={}

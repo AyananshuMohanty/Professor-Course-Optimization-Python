@@ -4,9 +4,12 @@ from Course_Input import *
 from Professor_Input import *
 
 def Course_Assignment():
+    Take_Course_Input()
+    Take_File_Input()
     CDCList=[]
     ELCList=[]
     UnassignedProfessor=professorList
+    print(UnassignedProfessor)
     for course in [*d.values()]: #gets list of values in dictionary
         if ((course.getCourseType()==Course_Type(1).name) or (course.getCourseType()==Course_Type(3).name)):
             CDCList.append(course)
@@ -17,6 +20,7 @@ def Course_Assignment():
     
     for course in CDCList:
         UnassignedProfessorsWithCourseInPriorityList=[]
+        print(UnassignedProfessor)
         for professor in UnassignedProfessor:
             if ((course in list((professor.Priority_Order_FDCDC).values())) or (course in list((professor.Priority_Order_HDCDC).values()))):
                 UnassignedProfessorsWithCourseInPriorityList.append(professor)
@@ -24,7 +28,7 @@ def Course_Assignment():
         
         if UnassignedProfessorsWithCourseInPriorityList:
             while Assigned==False:   #loops until a professor is assigned to this course
-                if(UnassignedProfessorsWithCourseInPriorityList):
+                if UnassignedProfessorsWithCourseInPriorityList:
                     PickProfessor=random.choice(UnassignedProfessorsWithCourseInPriorityList) #chooses one of the professors who have this course in their priority list
                     UnassignedProfessorsWithCourseInPriorityList.remove(PickProfessor)
                 else:
@@ -159,8 +163,4 @@ def Course_Assignment():
                     elif PickProfessor.coursesRemaining==1.5:
                         PickProfessor.coursesRemaining-=1
                         course.addProfTakingCourse(PickProfessor)
-                        Assigned=True        
-                        
-Course_Assignment()
-            
-                        
+                        Assigned=True                             

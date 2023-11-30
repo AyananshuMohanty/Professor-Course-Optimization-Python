@@ -1,5 +1,3 @@
-from Course_Input import *
-
 def FitnessScore(courseList):
     score=0
     for course in courseList:
