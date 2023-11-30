@@ -2,6 +2,7 @@ from Course_Input import *
 from Professor_Input import *
 from Course_Assignment import *
 from Fitness import *
+from Graph_Creator import *
 
 Final_Assignment=[]
 Final_Assignment_Score=99999
@@ -13,3 +14,5 @@ for i in range(10000):
 
 for course in Final_Assignment:
     print("Course " + course.getName() + " is assigned to " + course.profsTakingCourse)
+    
+Graph_Creator()
