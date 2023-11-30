@@ -7,7 +7,7 @@ from Graph_Creator import *
 Final_Assignment=[]
 Final_Assignment_Score=99999
 
-for i in range(2):
+for i in range(1000):
     Course_Assignment()
     if FitnessScore(courselist)<Final_Assignment_Score:
         Final_Assignment=courselist

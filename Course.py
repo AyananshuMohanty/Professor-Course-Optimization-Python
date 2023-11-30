@@ -20,5 +20,3 @@ class Course:
     def addProfTakingCourse(self, prof):
         self.profsTakingCourse.append(prof)
         self.noOfProfsTakingCourse = self.noOfProfsTakingCourse + 1
-        
-        
