@@ -2,17 +2,15 @@ from Course_Input import *
 from Professor_Input import *
 from Course_Assignment import *
 from Fitness import *
-from Graph_Creator import *
 
 Final_Assignment=[]
 Final_Assignment_Score=99999
 
 for i in range(10000):
     Course_Assignment()
-    if FitnessScore()<Final_Assignment_Score:
+    if FitnessScore(courselist)<Final_Assignment_Score:
         Final_Assignment=courselist
 
 for course in Final_Assignment:
-    print("Course " + course.getName() + " is assigned to " + course.profsTakingCourse)
-    
-Graph_Creator()
+    print("Course " + course.getName() + " is assigned to ", end = " ")
+    print(course.profsTakingCourse)

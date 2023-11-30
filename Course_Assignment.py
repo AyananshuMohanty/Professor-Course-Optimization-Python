@@ -14,7 +14,7 @@ def Course_Assignment():
     for course in [*d.values()]:
         if ((course.getCourseType()==Course_Type(2).name) or (course.getCourseType()==Course_Type(4).name)):
             ELCList.append(course)
-
+    
     for course in CDCList:
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
@@ -24,8 +24,11 @@ def Course_Assignment():
         
         if UnassignedProfessorsWithCourseInPriorityList:
             while Assigned==False:   #loops until a professor is assigned to this course
-                PickProfessor=random.choice(UnassignedProfessorsWithCourseInPriorityList) #chooses one of the professors who have this course in their priority list
-                UnassignedProfessorsWithCourseInPriorityList.remove(PickProfessor)
+                if(UnassignedProfessorsWithCourseInPriorityList):
+                    PickProfessor=random.choice(UnassignedProfessorsWithCourseInPriorityList) #chooses one of the professors who have this course in their priority list
+                    UnassignedProfessorsWithCourseInPriorityList.remove(PickProfessor)
+                else:
+                    break
                 
                 if UnassignedProfessorsWithCourseInPriorityList:
                     if PickProfessor.coursesRemaining==0.5:
@@ -39,14 +42,17 @@ def Course_Assignment():
                             PickProfessor2.coursesRemaining-=0.5
                             course.addProfTakingCourse(PickProfessor)
                             course.addProfTakingCourse(PickProfessor2)
-                            UnassignedProfessor.remove(PickProfessor2)
-                            Assigned=True
+                            if PickProfessor2.coursesRemaining==0:
+                                UnassignedProfessor.remove(PickProfessor2)                                
+                                Assigned=True
+                            UnassignedProfessor.remove(PickProfessor)
                         else:
                             Assigned=False
                     
                     elif PickProfessor.coursesRemaining==1:
                         PickProfessor.coursesRemaining-=1
                         course.addProfTakingCourse(PickProfessor)
+                        UnassignedProfessor.remove(PickProfessor)
                         Assigned=True
                     
                     elif PickProfessor.coursesRemaining==1.5:
@@ -60,7 +66,8 @@ def Course_Assignment():
                             PickProfessor2.coursesRemaining-=0.5
                             course.addProfTakingCourse(PickProfessor)
                             course.addProfTakingCourse(PickProfessor2)
-                            UnassignedProfessor.remove(PickProfessor2)
+                            if PickProfessor2.coursesRemaining==0:
+                                UnassignedProfessor.remove(PickProfessor2)                            
                             Assigned=True
                         else:
                             PickProfessor.coursesRemaining-=1
@@ -78,7 +85,7 @@ def Course_Assignment():
                         course.addProfTakingCourse(PickProfessor)
                         Assigned=True
                         
-
+    
     for course in ELCList:
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
@@ -152,4 +159,8 @@ def Course_Assignment():
                     elif PickProfessor.coursesRemaining==1.5:
                         PickProfessor.coursesRemaining-=1
                         course.addProfTakingCourse(PickProfessor)
-                        Assigned=True                    
+                        Assigned=True        
+                        
+Course_Assignment()
+            
+                        
