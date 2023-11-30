@@ -1,0 +1,41 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[a4paper,inner=1cm, outer=1.5cm, top=1cm, bottom=2cm,bindingoffset =.9cm]{geometry}
+
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{index}
+
+
+\title{\Large{\textbf {Crash Test Report}}}
+\author{By  Ayananshu Mohanty, T Saket Hatwar, Yash Chaphekar}
+\date{21 November 2023}
+
+
+\begin{document}
+
+\small
+\pagenumbering {arabic}
+\setcounter{page}{1}
+\fancyhf{}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\maketitle
+
+\section{Crash Tests}
+(i)The output of the code depends on the professor type, that is the number of courses a professor is taking in the semester. If the sum of the number of courses taken by professors is not an integer, it gives a crash test because it will enter a never-ending loop. So to avoid that, we will check the sum of the number of courses and if it is not an integer, the program will exit and print “Course allocation not possible” on the console.\\ \\
+(ii) Another defect in our program is that if we have 2 professors who will be taking 1 course each, it is not possible to split 2 courses between them such that each one of them takes 0.5 of the course for both courses. For professors taking 1 course, we are only able to assign one full course to them. So in case we have 3 professors P1, P2, P3 taking 0.5,0.5,1 course each, and all of them have filled two common courses as their priority, we’ll only be able to assign this in one way, that is clubbing the two P1 and P2 professors and giving them one course, and the other to the P3 professor contrary to the four possibilities. \\ \\
+
+
+
+
+
+
+
+\end{document}
