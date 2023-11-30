@@ -12,8 +12,12 @@ for i in range(2):
     if FitnessScore(courselist)<Final_Assignment_Score:
         Final_Assignment=courselist
 
+f = open("output.txt", 'w')
+
 for course in Final_Assignment:
-    print("Course " + course.getName() + " is assigned to ", end = " ")
-    print(course.profsTakingCourse)
+    f.write("Course " + repr(course.getName()) + " is assigned to ")
+    for prof in course.profsTakingCourse:    
+        f.write(repr(prof.getName()))
+    f.writelines("\n")
 
 Graph_Creator(courselist,professorList)
