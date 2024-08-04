@@ -35,16 +35,16 @@ class Professor:
         for i in courseCodes:
             if count<5:
                 if i!="nan":    #if case for when professor has not filled an input
-                    self.Priority_Order_FDCDC[count]=d[i]
+                    self.Priority_Order_FDCDC[count]=i
             elif count<10:
                 if i!="nan":    #if case for when professor has not filled an input
-                    self.Priority_Order_HDCDC[count-5]=d[i]
+                    self.Priority_Order_HDCDC[count-5]=i
             elif count<13:
                 if i!="nan":    #if case for when professor has not filled an input
-                    self.Priority_Order_FDELC[count-10]=d[i]
+                    self.Priority_Order_FDELC[count-10]=i
             elif count<16:
                 if i!="nan":    #if case for when professor has not filled an input
-                    self.Priority_Order_HDELC[count-13]=d[i]
+                    self.Priority_Order_HDELC[count-13]=i
             count+=1
             
     # coursesTaken = []
