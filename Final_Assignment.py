@@ -7,7 +7,7 @@ from Graph_Creator import *
 Final_Assignment=[]
 Final_Assignment_Score=0
 
-for i in range(10):
+for i in range(1):
     Current_Assignment=Course_Assignment()
     Current_Fitness_Score=FitnessScore(Current_Assignment)
     print(Current_Fitness_Score)
