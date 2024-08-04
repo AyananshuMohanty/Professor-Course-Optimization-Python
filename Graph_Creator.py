@@ -5,7 +5,6 @@ def Graph_Creator(localCourselist,professorList):      #not sure if putting impo
     
     plt.figure(figsize=(50, 50))
     G = nx.Graph()
-    print(G)
 
     pos = nx.circular_layout(G)
 
