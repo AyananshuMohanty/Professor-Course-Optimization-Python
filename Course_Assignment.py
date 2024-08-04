@@ -8,14 +8,15 @@ def Course_Assignment():
     ELCList=[]
     UnassignedProfessor=professorList
     for course in [*d.values()]: #gets list of values in dictionary
-        if ((course.getCourseType()==Course_Type(1).name) or (course.getCourseType()==Course_Type(3).name)):
+        if ((course.getCourseType()==Course_Type(1).name) or (course.getCourseType()==Course_Type(2).name)):
             CDCList.append(course)
             
     for course in [*d.values()]:
-        if ((course.getCourseType()==Course_Type(2).name) or (course.getCourseType()==Course_Type(4).name)):
+        if ((course.getCourseType()==Course_Type(3).name) or (course.getCourseType()==Course_Type(4).name)):
             ELCList.append(course)
     
     for course in CDCList:
+        course.clearProfsTakingCourse()
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
             if ((course in list((professor.Priority_Order_FDCDC).values())) or (course in list((professor.Priority_Order_HDCDC).values()))):

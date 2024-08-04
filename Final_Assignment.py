@@ -5,7 +5,7 @@ from Fitness import *
 from Graph_Creator import *
 
 Final_Assignment=[]
-Final_Assignment_Score=99999
+Final_Assignment_Score=9999999999
 
 for i in range(1000):
     Course_Assignment()
@@ -13,7 +13,6 @@ for i in range(1000):
         Final_Assignment=courselist
 
 f = open("output.txt", 'w',encoding="utf-8")
-
 for course in Final_Assignment:
     f.write("Course " + repr(course.getName()) + " is assigned to ")
     for prof in course.profsTakingCourse:    
