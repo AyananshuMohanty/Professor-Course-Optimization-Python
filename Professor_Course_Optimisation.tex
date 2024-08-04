@@ -67,13 +67,13 @@ Furthermore, the graph is exported as a PNG to visually see the course allocatio
    \hspace{1cm}   \includegraphics[scale=1]{Graph1} \\
 \includegraphics[scale =0.8]{Graph2}
 
-The above graph was produced using networkx and Matplotlib.pyplot taking inputs from FileInput. Each node refers to the courses that are being allotted in the semester and the professors who are taking the courses. Every edge represents the connections that are made between the professor and the courses there in his or her priority list. Each edge also is marked with the priority at which the course is for the professor. \\ \\
+The above graph was produced using networkx and Matplotlib.pyplot taking inputs from FileInput. Each node refers to the courses that are being allotted in the semester and the professors who are taking the courses. Every edge represents the connections that are made between the professor and the courses there in his or her priority list. Each edge also is marked with the priority at which the course is for the professor.The bottom right of the graph is where the professors are and the remaining part are the courses. \\ \\
 
 
 
 \section{Code Implementation}
 
-(i) All the input data were taken in as .csv files. The three most important files were ProffessorList, CourseList, and FileInput. ProfessorList includes the IDs of all the professors and maps them to the Professor Name and Professor Type. \\                                                        CourseList includes all the courses which are being offered in the semester. It contains the course code which maps it to the course name and course type.        \\   
+(i) All the input data were taken in as .csv files. The three most important files were ProfessorList, CourseList, and FileInput. ProfessorList includes the IDs of all the professors and maps them to the Professor Name and Professor Type. \\                                                        CourseList includes all the courses which are being offered in the semester. It contains the course code which maps it to the course name and course type.        \\   
 FileInput is the data that contains all the course priorities of the professors. It contains the list of all the priority orders of the professors. Each professor has a choice to give a list of 16 courses in which they give their top priorities for each course type in a descending manner. The last column denotes the number of courses the professor can take in the semester. \\ 
 
 %insert data file input
@@ -83,22 +83,33 @@ FileInput is the data that contains all the course priorities of the professors.
 
 (ii) The Professor.py file classifies and stores each professor’s priority. When a professor is assigned a course, the py file adds it to the data type “noOfCoursesTaken”. When a professor is assigned the maximum no. of courses they can take, they are made unavailable for the next course assignment. This ensures a professor does not take courses more than their type allows them to. \\ \\
 
+(iii) In CourseInput.py and ProfessorInput.py we have taken input from CSV files into a course list and a professorList. These lists store objects of type Course and Professor respectively. Further operations like adding courses to professors or assigning professors to courses will be performed on these lists. \\ \\
+
+
 %insert code snippet
 \graphicspath{ {./images/} }
 \includegraphics[width=8cm]{Professor.py1}
-\includegraphics[width=10cm]{Professor.py2}\\
-a)Course priorities being assigned for a professor   \hspace{1cm}       b)Professor availability for further course allotment \\ \\
+\includegraphics[width=10cm]{Course}\\
+a)Course priorities being assigned for a professor   \hspace{1cm}       b)Professor availability for course allotment \\ \\
 
 \graphicspath{ {./images/} }
 \includegraphics[width=\textwidth]{Fitness} \\ 
- \hspace{5cm} c) Fitness score is calculated based on course priorities.
+ \hspace{5cm} c) Fitness score is calculated based on course priorities. \\ \\ 
+
+(iv)  In CourseAssignment.py, we start by creating two lists, one of CDCs and the other of Electives. First, we have to iterate through the list of CDCs and once all of them fill up, we start filling the Electives. For each CDC, we need to make a list of all the professors who filled that particular CDC in their priority list and name it UnassignedProfessorWithCourseInPriorityList. We pick a professor randomly from this list and check the courses remaining. If the professor has 1 course remaining, we assign the course fully to him and move on to the next course in CDCList. If the professor has 0.5 courses remaining we look for a potential professor to share the course. The sharing partner can either be a professor with 0.5 courses remaining or one with 1.5 courses remaining. From this list of potential partners, we randomly pick one professor and this assignment allows 2 professors to share the course. \\
+
+
+(v) After that, we move to assigning the elective courses. In assigning the electives, we follow the same procedure as assigning the CDCs except that here if a course is only filled by one professor with 0.5 courses remaining, the course goes unassigned as opposed to giving a crash test in the case of CDCs. \\ \\
+
+(vi) At the end of the assignment, we test our assignments using a fitness score by adding up all the priority indices of the courses the professors finally got assigned to. For example if a professor filled “CS F222” as their first priority and got assigned to it, it would add 1 to the fitness score whereas if they got a course that they filled at 4th priority, it would add 4 to the fitness score. We want the fitness score to be as low as possible for it to be an ideal assignment for all parties. \\ 
 
 
 \pagebreak
-
+\section{Limitations}
+It was extremely difficult for us to implement the genetic algorithm in multiple generations. To tackle this problem, we implemented the algorithm on a simple level to get an output that would not be the most optimal solution, but very close to the optimal solution. The code was written in Python, a language we were all fairly new to which impacted the pace at which we were able to code. Python was chosen as a language for this problem statement as we wanted to import multiple libraries to assist us in visualizing the problem statement and forming an optimal method of solving it. Unfortunately, we ended up at a dead end where we struggled with Python's indentations. Due to some error which we have deduced to be some simple logical error, our outputs are being assigned in a wrong manner. We do not have a clear understanding from our point of view as to why this error is occurring, but we accept that there is a shortcoming from our end. 
 
 \section{Acknowledgement}
-We would like to thank Sohil Khan for contributing to our code by providing different inputs on implementing the optimization problem solution in Python. We would also like to thank Professor Snehanshu Saha for allowing us to solve a real-life problem using the applications of graph theory.\\
+We would like to thank Professor Snehanshu Saha for allowing us to solve a real-life problem using the applications of graph theory which helped us learn new algorithms to solve different problem statements .\\
 
 
 
