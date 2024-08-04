@@ -4,6 +4,8 @@ from Course_Type import *
 from Course_Input import *
 from Professor_Input import *
 
+random.seed(42)
+
 def Course_Assignment():
     CDCList=[]
     ELCList=[]
@@ -17,6 +19,7 @@ def Course_Assignment():
             local_course = copy.deepcopy(course) #creates a local copy of each ELC course
             ELCList.append(local_course)
     for course in CDCList:
+        course.clearProfsTakingCourse()
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
             if (professor.coursesRemaining>0 and ((course.getCourseCode() in list((professor.Priority_Order_FDCDC).values())) or (course.getCourseCode() in list((professor.Priority_Order_HDCDC).values())))):
@@ -81,6 +84,7 @@ def Course_Assignment():
                         
     
     for course in ELCList:
+        course.clearProfsTakingCourse()
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
             if (professor.coursesRemaining>0 and ((course.getCourseCode() in list((professor.Priority_Order_FDELC).values())) or (course.getCourseCode() in list((professor.Priority_Order_HDELC).values())))):
@@ -155,4 +159,14 @@ def Course_Assignment():
                         course.addProfTakingCourse(PickProfessor)
                         Assigned=True
     CDCList.extend(ELCList)
+    # f = open("output.txt", 'w',encoding="utf-8")
+    # for course in CDCList:
+        
+    #     f.write("Course " + repr(course.getName()) + " is assigned to ")
+    #     for prof in course.profsTakingCourse:    
+    #         f.write(repr(prof.getName()))
+    #         print(f"Courses {course.getName()} is assigned to {repr(prof.getName())}")
+    #     f.writelines("\n")
+    # f.close()
     return CDCList
+

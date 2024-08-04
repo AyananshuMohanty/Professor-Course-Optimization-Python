@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def Graph_Creator(localCourselist,professorList):      #not sure if putting import statements outside the function header updates the value stored in inport statements when the function is called
     
-    plt.figure(figsize=(100, 100))
+    plt.figure(figsize=(50, 50))
     G = nx.Graph()
     print(G)
 
@@ -49,10 +49,12 @@ def Graph_Creator(localCourselist,professorList):      #not sure if putting impo
         font_color='red'
     )
     options = {
-        'node_color': 'teal',     # color of node
-        'node_size': 4500,          # size of node
-        'width': 1,                 # line width of edges  
-        'edge_color':'black',        # edge color
+        'node_color':'#0C1844',     # color of node
+        'node_size': 9000,         # size of node
+        'width': 6,                 # line width of edges  
+        'edge_color':'#FF6969',     # edge color
+        'font_color':'#FFFFFF',     # font color
+        'font_size':18,             # font size 
     }
     nx.draw(G, pos, with_labels = True,**options)
     plt.savefig("Course_Assignment.png")
