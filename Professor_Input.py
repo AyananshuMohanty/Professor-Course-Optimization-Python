@@ -10,10 +10,8 @@ def Take_File_Input():
     df['Name'] = df['Name'].astype(str)
     df['ID'] = df['ID'].astype(str)
     df['x'] = df['x'].astype(np.float64)
-    
     numberOfProfessors=df['Name'].count()
-
-    for i in range(0,numberOfProfessors):
+    for i in range(numberOfProfessors):
         professor = Professor(df.iloc[i]["Name"], df.iloc[i]["ID"],df.iloc[i]['x'])
         professorList.append(professor)
         professor.setPriority(df.iloc[i, 2:19])

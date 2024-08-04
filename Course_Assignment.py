@@ -4,8 +4,6 @@ from Course_Input import *
 from Professor_Input import *
 
 def Course_Assignment():
-    Take_Course_Input()
-    Take_File_Input()
     CDCList=[]
     ELCList=[]
     UnassignedProfessor=professorList
