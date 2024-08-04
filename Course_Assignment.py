@@ -1,4 +1,5 @@
 import random
+import copy
 from Course_Type import *
 from Course_Input import *
 from Professor_Input import *
@@ -9,14 +10,14 @@ def Course_Assignment():
     UnassignedProfessor=professorList
     for course in [*d.values()]: #gets list of values in dictionary
         if ((course.getCourseType()==Course_Type(1).name) or (course.getCourseType()==Course_Type(2).name)):
-            CDCList.append(course)
+            local_course = copy.deepcopy(course) #creates a local copy of each CDC course
+            CDCList.append(local_course)
             
     for course in [*d.values()]:
         if ((course.getCourseType()==Course_Type(3).name) or (course.getCourseType()==Course_Type(4).name)):
-            ELCList.append(course)
-    
+            local_course = copy.deepcopy(course) #creates a local copy of each ELC course
+            ELCList.append(local_course)
     for course in CDCList:
-        course.clearProfsTakingCourse()
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
             if ((course in list((professor.Priority_Order_FDCDC).values())) or (course in list((professor.Priority_Order_HDCDC).values()))):
@@ -88,7 +89,6 @@ def Course_Assignment():
                         
     
     for course in ELCList:
-        course.clearProfsTakingCourse()
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
             if ((course in list((professor.Priority_Order_FDELC).values())) or (course in list((professor.Priority_Order_HDELC).values()))):
@@ -161,4 +161,6 @@ def Course_Assignment():
                     elif PickProfessor.coursesRemaining==1.5:
                         PickProfessor.coursesRemaining-=1
                         course.addProfTakingCourse(PickProfessor)
-                        Assigned=True                             
+                        Assigned=True
+    CDCList.extend(ELCList)
+    return CDCList

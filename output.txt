@@ -11,21 +11,6 @@ Course 'Principle of Programming Languages' is assigned to
 Course 'Theory of Computation' is assigned to 
 Course 'Computer Programming' is assigned to 
 Course 'Compiler Construction' is assigned to 
-Course 'Introduction to Data Mining' is assigned to 
-Course 'Analysis and Intractability �of Algorithms' is assigned to 
-Course 'Data Communication and Computer Networks' is assigned to 
-Course 'Design Patterns and Object-Oriented Analysis' is assigned to 
-Course 'Artificial Intelligence�' is assigned to 
-Course 'Research Preperation in Computer Science' is assigned to 
-Course 'Introduction to Bioinformatics' is assigned to 
-Course 'Advanced Computer Architectures' is assigned to 
-Course 'Introduction to Computer Graphics' is assigned to 
-Course 'Cryptography and Network Security' is assigned to 
-Course 'Introduction to 3D Game Graphics' is assigned to 
-Course 'Advanced Programming Languages' is assigned to 
-Course 'Compilers' is assigned to 
-Course 'Intelligent Information Retrieval' is assigned to 
-Course 'Intelligent Tutoring Systems' is assigned to 
 Course 'Intro to Computer Security' is assigned to 
 Course 'Real-Time Concepts for Embedded Systems�' is assigned to 
 Course 'Introduction to Networking' is assigned to 
@@ -59,6 +44,21 @@ Course 'Independent Research in Computer Science' is assigned to
 Course 'Topics in Computer Science' is assigned to 
 Course 'Computer Science I' is assigned to 
 Course 'Computer Mastery' is assigned to 
+Course 'Introduction to Data Mining' is assigned to 
+Course 'Analysis and Intractability �of Algorithms' is assigned to 
+Course 'Data Communication and Computer Networks' is assigned to 
+Course 'Design Patterns and Object-Oriented Analysis' is assigned to 
+Course 'Artificial Intelligence�' is assigned to 
+Course 'Research Preperation in Computer Science' is assigned to 
+Course 'Introduction to Bioinformatics' is assigned to 
+Course 'Advanced Computer Architectures' is assigned to 
+Course 'Introduction to Computer Graphics' is assigned to 
+Course 'Cryptography and Network Security' is assigned to 
+Course 'Introduction to 3D Game Graphics' is assigned to 
+Course 'Advanced Programming Languages' is assigned to 
+Course 'Compilers' is assigned to 
+Course 'Intelligent Information Retrieval' is assigned to 
+Course 'Intelligent Tutoring Systems' is assigned to 
 Course 'Thesis Extension' is assigned to 
 Course 'Masters Thesis' is assigned to 
 Course 'Graduate Topics in Computer Science' is assigned to 
@@ -68,7 +68,7 @@ Course 'Text Mining' is assigned to
 Course 'Developing Intelligent Tutoring Systems' is assigned to 
 Course 'Artificial Neural Networks and Forecasting' is assigned to 
 Course 'Advanced Artificial Intelligence' is assigned to 
-Course 'Algorithms in Bioinformatics' is assigned to 
+Course 'Algorithm Design and Analysis' is assigned to 
 Course 'Computational Thinking and Problem Solving' is assigned to 
 Course 'Pattern Recognition' is assigned to 
 Course 'Computer Vision & Pattern Recognition' is assigned to 
@@ -90,5 +90,4 @@ Course 'Special Topics in Computer Science' is assigned to
 Course 'Metadata Representation Languages' is assigned to 
 Course 'Computability and Complexity' is assigned to 
 Course 'Advanced Data Mining' is assigned to 
-Course 'Algorithm Design and Analysis' is assigned to 
 Course 'Numerical Methods for Partial Differential Equations' is assigned to 
