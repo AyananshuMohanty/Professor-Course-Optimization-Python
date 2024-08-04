@@ -22,7 +22,9 @@ def Course_Assignment():
         course.clearProfsTakingCourse()
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
-            if (professor.coursesRemaining>0 and ((course.getCourseCode() in list((professor.Priority_Order_FDCDC).values())) or (course.getCourseCode() in list((professor.Priority_Order_HDCDC).values())))):
+            if professor.coursesRemaining==0:
+                UnassignedProfessor.remove(professor)
+            elif ((course.getCourseCode() in list((professor.Priority_Order_FDCDC).values())) or (course.getCourseCode() in list((professor.Priority_Order_HDCDC).values()))):
                 UnassignedProfessorsWithCourseInPriorityList.append(professor)
         Assigned=False
         while UnassignedProfessorsWithCourseInPriorityList and Assigned==False:   #loops until a professor is assigned to this course
@@ -39,16 +41,12 @@ def Course_Assignment():
                         PickProfessor.coursesRemaining-=0.5
                         PickProfessor2.coursesRemaining-=0.5
                         course.addProfTakingCourse(PickProfessor)
-                        course.addProfTakingCourse(PickProfessor2)
-                        if PickProfessor2.coursesRemaining==0:
-                            UnassignedProfessor.remove(PickProfessor2)                                
-                        UnassignedProfessor.remove(PickProfessor)
+                        course.addProfTakingCourse(PickProfessor2)                             
                         Assigned=True
                 
                 elif PickProfessor.coursesRemaining==1:
                     PickProfessor.coursesRemaining-=1
                     course.addProfTakingCourse(PickProfessor)
-                    UnassignedProfessor.remove(PickProfessor)
                     Assigned=True
                 
                 elif PickProfessor.coursesRemaining==1.5:
@@ -61,23 +59,18 @@ def Course_Assignment():
                         PickProfessor.coursesRemaining-=0.5
                         PickProfessor2.coursesRemaining-=0.5
                         course.addProfTakingCourse(PickProfessor)
-                        course.addProfTakingCourse(PickProfessor2)
-                        if PickProfessor2.coursesRemaining==0:
-                            UnassignedProfessor.remove(PickProfessor2)                            
+                        course.addProfTakingCourse(PickProfessor2)                         
                         Assigned=True
                     else:
                         PickProfessor.coursesRemaining-=1
                         course.addProfTakingCourse(PickProfessor)
                         Assigned=True
             else:
-                if PickProfessor.coursesRemaining==0.5:
-                    UnassignedProfessorsWithCourseInPriorityList.remove(PickProfessor)
-                elif PickProfessor.coursesRemaining==1:
+                if PickProfessor.coursesRemaining==1:
                     PickProfessor.coursesRemaining-=1
                     course.addProfTakingCourse(PickProfessor)
-                    UnassignedProfessor.remove(PickProfessor)
                     Assigned=True
-                else:
+                elif PickProfessor.coursesRemaining==1.5:
                     PickProfessor.coursesRemaining-=1
                     course.addProfTakingCourse(PickProfessor)
                     Assigned=True
@@ -87,7 +80,9 @@ def Course_Assignment():
         course.clearProfsTakingCourse()
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
-            if (professor.coursesRemaining>0 and ((course.getCourseCode() in list((professor.Priority_Order_FDELC).values())) or (course.getCourseCode() in list((professor.Priority_Order_HDELC).values())))):
+            if professor.coursesRemaining==0:
+                UnassignedProfessor.remove(professor)
+            elif ((course.getCourseCode() in list((professor.Priority_Order_FDELC).values())) or (course.getCourseCode() in list((professor.Priority_Order_HDELC).values()))):
                 UnassignedProfessorsWithCourseInPriorityList.append(professor)
         numberOf0_5Profs=0
         numberOf1Profs=0
@@ -120,7 +115,6 @@ def Course_Assignment():
                             PickProfessor2.coursesRemaining-=0.5
                             course.addProfTakingCourse(PickProfessor)
                             course.addProfTakingCourse(PickProfessor2)
-                            UnassignedProfessor.remove(PickProfessor2)
                             Assigned=True
                         else:
                             Assigned=False
@@ -141,7 +135,6 @@ def Course_Assignment():
                             PickProfessor2.coursesRemaining-=0.5
                             course.addProfTakingCourse(PickProfessor)
                             course.addProfTakingCourse(PickProfessor2)
-                            UnassignedProfessor.remove(PickProfessor2)
                             Assigned=True
                         else:
                             PickProfessor.coursesRemaining-=1

@@ -1,43 +1,43 @@
 Course 'Logic_in_Computer Science1' is assigned to 'Arnab Kumar Paul'
-Course 'Discrete_Structures_in_Computer Science' is assigned to 'Neena Goveas'
-Course 'Digital_Design' is assigned to 'Swaroop Joshi''Gargi Sanket Prabhu'
+Course 'Discrete_Structures_in_Computer Science' is assigned to 'Surjya Ghosh''Swaroop Joshi'
+Course 'Digital_Design' is assigned to 'Sanjay K. Sahay'
 Course 'Object Oriented Programming' is assigned to 'Basabdatta Bhattacharya''Biju K. Raveendran Nair'
-Course 'Data Structure and Algorithms' is assigned to 'Diptendu Chatterjee''Aditya Challa'
-Course 'Database and Management Systems' is assigned to 'Ashwin Srinivasan''A. Baskar'
+Course 'Data Structure and Algorithms' is assigned to 'Basabdatta Bhattacharya''Vinayak Naik'
+Course 'Database and Management Systems' is assigned to 'Swati Agarwal''Ashwin Srinivasan'
 Course 'MUP' is assigned to 'Devashish Gosain''Snehanshu Saha'
-Course 'Operating Systems' is assigned to 'Basabdatta Bhattacharya'
-Course 'Computer Architecture' is assigned to 'Siddharth Gupta'
-Course 'Principle of Programming Languages' is assigned to 'Santonu Sarkar'
-Course 'Theory of Computation' is assigned to 'Arnab Kumar Paul''Tanmay Tulsidas Verlekart'
-Course 'Introduction to Data Mining' is assigned to 'Devashish Gosain'
-Course 'Analysis and Intractability �of Algorithms' is assigned to 'Diptendu Chatterjee'
-Course 'Data Communication and Computer Networks' is assigned to 'Sujith Thomas''Surjya Ghosh'
-Course 'Design Patterns and Object-Oriented Analysis' is assigned to 'Kanchan Manna'
+Course 'Operating Systems' is assigned to 'Ramprasad S. Joshi'
+Course 'Computer Architecture' is assigned to 'Diptendu Chatterjee''Tanmay Tulsidas Verlekart'
+Course 'Principle of Programming Languages' is assigned to 'Arnab Kumar Paul''Swati Agarwal'
+Course 'Theory of Computation' is assigned to 'Tanmay Tulsidas Verlekart''Sravan Danda'
+Course 'Introduction to Data Mining' is assigned to 'Surjya Ghosh''Vinayak Naik'
+Course 'Analysis and Intractability �of Algorithms' is assigned to 'Tanmay Tulsidas Verlekart''Diptendu Chatterjee'
+Course 'Data Communication and Computer Networks' is assigned to 'Swaroop Joshi''Surjya Ghosh'
+Course 'Design Patterns and Object-Oriented Analysis' is assigned to 'Devashish Gosain''Swaroop Joshi'
 Course 'Artificial Intelligence�' is assigned to 'Shubhangi Krushnachandra Gawali'
-Course 'Research Preperation in Computer Science' is assigned to 'A. Baskar'
-Course 'Introduction to Bioinformatics' is assigned to 'Ashwin Srinivasan'
-Course 'Advanced Computer Architectures' is assigned to 'Aditya Challa'
-Course 'Introduction to Computer Graphics' is assigned to 'Biju K. Raveendran Nair'
-Course 'Cryptography and Network Security' is assigned to 'Ramprasad S. Joshi'
+Course 'Research Preperation in Computer Science' is assigned to 'Basabdatta Bhattacharya''Vinayak Naik'
+Course 'Introduction to Bioinformatics' is assigned to 'Swaroop Joshi''Aditya Challa'
+Course 'Advanced Computer Architectures' is assigned to 'Kunal Kishore Korgaonkar'
+Course 'Introduction to Computer Graphics' is assigned to 'Harikrishnan N. B.''Arnab Kumar Paul'
+Course 'Cryptography and Network Security' is assigned to 'Harikrishnan N. B.''Swati Agarwal'
 Course 'Intro to Computer Security' is assigned to 
-Course 'Real-Time Concepts for Embedded Systems�' is assigned to 
+Course 'Real-Time Concepts for Embedded Systems�' is assigned to 'A. Baskar'
 Course 'Introduction to Networking' is assigned to 
-Course 'Introduction to Computer Security' is assigned to 
-Course 'Cloud Computing' is assigned to 
+Course 'Introduction to Computer Security' is assigned to 'Santonu Sarkar'
+Course 'Cloud Computing' is assigned to 'Biju K. Raveendran Nair'
 Course 'Numerical Analysis and Computing' is assigned to 'Rajesh Kumar'
-Course 'Logic Programming' is assigned to 
-Course 'Digital Embedded Systems Design with HDL' is assigned to 
-Course 'Principles and Techniques of Data Science' is assigned to 'Gargi Sanket Prabhu'
-Course 'Introduction to Software Engineering' is assigned to 'Harikrishnan N. B.'
+Course 'Logic Programming' is assigned to 'Swaroop Joshi''Biju K. Raveendran Nair'
+Course 'Digital Embedded Systems Design with HDL' is assigned to 'Diptendu Chatterjee'
+Course 'Principles and Techniques of Data Science' is assigned to 'Devashish Gosain'
+Course 'Introduction to Software Engineering' is assigned to 
 Course 'Foundations of Data Science' is assigned to 
-Course 'Thesis Extension' is assigned to 
-Course 'Masters Thesis' is assigned to 
-Course 'Graduate Topics in Computer Science' is assigned to 
+Course 'Thesis Extension' is assigned to 'Ramprasad S. Joshi'
+Course 'Masters Thesis' is assigned to 'Aditya Challa'
+Course 'Graduate Topics in Computer Science' is assigned to 'Siddharth Gupta'
 Course 'Graduate Individual Study in Computer Science' is assigned to 
 Course 'Advanced Internet of Things' is assigned to 'Bharat Madhusudan Deshpande'
 Course 'Text Mining' is assigned to 
-Course 'Developing Intelligent Tutoring Systems' is assigned to 
+Course 'Developing Intelligent Tutoring Systems' is assigned to 'Swati Agarwal''Diptendu Chatterjee'
 Course 'Artificial Neural Networks and Forecasting' is assigned to 
 Course 'Advanced Artificial Intelligence' is assigned to 'Hemant Rathore'
 Course 'Algorithms in Bioinformatics' is assigned to 
-Course 'Computational Thinking and Problem Solving' is assigned to 'Bharat Madhusudan Deshpande''Vinayak Naik'
+Course 'Computational Thinking and Problem Solving' is assigned to 'Santonu Sarkar'
