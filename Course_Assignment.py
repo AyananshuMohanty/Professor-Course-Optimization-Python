@@ -88,6 +88,7 @@ def Course_Assignment():
                         
     
     for course in ELCList:
+        course.clearProfsTakingCourse()
         UnassignedProfessorsWithCourseInPriorityList=[]
         for professor in UnassignedProfessor:
             if ((course in list((professor.Priority_Order_FDELC).values())) or (course in list((professor.Priority_Order_HDELC).values()))):

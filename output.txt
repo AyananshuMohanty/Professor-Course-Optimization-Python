@@ -11,21 +11,21 @@ Course 'Principle of Programming Languages' is assigned to
 Course 'Theory of Computation' is assigned to 
 Course 'Computer Programming' is assigned to 
 Course 'Compiler Construction' is assigned to 
-Course 'Introduction to Data Mining' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Analysis and Intractability �of Algorithms' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Data Communication and Computer Networks' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Design Patterns and Object-Oriented Analysis' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Artificial Intelligence�' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Research Preperation in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Introduction to Bioinformatics' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Advanced Computer Architectures' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Introduction to Computer Graphics' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Cryptography and Network Security' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Introduction to 3D Game Graphics' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Advanced Programming Languages' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Compilers' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Intelligent Information Retrieval' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Intelligent Tutoring Systems' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
+Course 'Introduction to Data Mining' is assigned to 
+Course 'Analysis and Intractability �of Algorithms' is assigned to 
+Course 'Data Communication and Computer Networks' is assigned to 
+Course 'Design Patterns and Object-Oriented Analysis' is assigned to 
+Course 'Artificial Intelligence�' is assigned to 
+Course 'Research Preperation in Computer Science' is assigned to 
+Course 'Introduction to Bioinformatics' is assigned to 
+Course 'Advanced Computer Architectures' is assigned to 
+Course 'Introduction to Computer Graphics' is assigned to 
+Course 'Cryptography and Network Security' is assigned to 
+Course 'Introduction to 3D Game Graphics' is assigned to 
+Course 'Advanced Programming Languages' is assigned to 
+Course 'Compilers' is assigned to 
+Course 'Intelligent Information Retrieval' is assigned to 
+Course 'Intelligent Tutoring Systems' is assigned to 
 Course 'Intro to Computer Security' is assigned to 
 Course 'Real-Time Concepts for Embedded Systems�' is assigned to 
 Course 'Introduction to Networking' is assigned to 
@@ -59,36 +59,36 @@ Course 'Independent Research in Computer Science' is assigned to
 Course 'Topics in Computer Science' is assigned to 
 Course 'Computer Science I' is assigned to 
 Course 'Computer Mastery' is assigned to 
-Course 'Thesis Extension' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Masters Thesis' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Graduate Topics in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Graduate Individual Study in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Advanced Internet of Things' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Text Mining' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Developing Intelligent Tutoring Systems' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Artificial Neural Networks and Forecasting' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Advanced Artificial Intelligence' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Algorithms in Bioinformatics' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Computational Thinking and Problem Solving' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Pattern Recognition' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Computer Vision & Pattern Recognition' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Part-time CPT in CEG' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Full-time CPT in CEG' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Independent Study in Computer Engineering' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Pattern Recognition' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Distributed Computing' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Embedded Systems' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Dissertation Defense in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Continuing Registration in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Residency Research in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Independent Study in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Dissertation Research in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Special Topics in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Capstone Project - Cyber Security' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Soft Computing' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Special Topics in Computer Science' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Metadata Representation Languages' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Computability and Complexity' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Advanced Data Mining' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Algorithm Design and Analysis' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
-Course 'Numerical Methods for Partial Differential Equations' is assigned to 'A. Baskar''Aditya Challa''Ashwin Srinivasan''Bharat Madhusudan Deshpande''Diptendu Chatterjee''Gargi Sanket Prabhu''Hemant Rathore''Biju K. Raveendran Nair''Kunal Kishore Korgaonkar''Sanjay K. Sahay''Ramprasad S. Joshi''Basabdatta Bhattacharya''Vinayak Naik''Swati Agarwal''Harikrishnan N. B.'
+Course 'Thesis Extension' is assigned to 
+Course 'Masters Thesis' is assigned to 
+Course 'Graduate Topics in Computer Science' is assigned to 
+Course 'Graduate Individual Study in Computer Science' is assigned to 
+Course 'Advanced Internet of Things' is assigned to 
+Course 'Text Mining' is assigned to 
+Course 'Developing Intelligent Tutoring Systems' is assigned to 
+Course 'Artificial Neural Networks and Forecasting' is assigned to 
+Course 'Advanced Artificial Intelligence' is assigned to 
+Course 'Algorithms in Bioinformatics' is assigned to 
+Course 'Computational Thinking and Problem Solving' is assigned to 
+Course 'Pattern Recognition' is assigned to 
+Course 'Computer Vision & Pattern Recognition' is assigned to 
+Course 'Part-time CPT in CEG' is assigned to 
+Course 'Full-time CPT in CEG' is assigned to 
+Course 'Independent Study in Computer Engineering' is assigned to 
+Course 'Pattern Recognition' is assigned to 
+Course 'Distributed Computing' is assigned to 
+Course 'Embedded Systems' is assigned to 
+Course 'Dissertation Defense in Computer Science' is assigned to 
+Course 'Continuing Registration in Computer Science' is assigned to 
+Course 'Residency Research in Computer Science' is assigned to 
+Course 'Independent Study in Computer Science' is assigned to 
+Course 'Dissertation Research in Computer Science' is assigned to 
+Course 'Special Topics in Computer Science' is assigned to 
+Course 'Capstone Project - Cyber Security' is assigned to 
+Course 'Soft Computing' is assigned to 
+Course 'Special Topics in Computer Science' is assigned to 
+Course 'Metadata Representation Languages' is assigned to 
+Course 'Computability and Complexity' is assigned to 
+Course 'Advanced Data Mining' is assigned to 
+Course 'Algorithm Design and Analysis' is assigned to 
+Course 'Numerical Methods for Partial Differential Equations' is assigned to 
